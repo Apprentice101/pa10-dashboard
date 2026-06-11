@@ -50,24 +50,36 @@
     }
   }
 
+  // Count the cards the bundle is actually rendering, so the counters
+  // always match what the user sees — independent of whether the data
+  // came from the JS bundle or the snapshot.
+  function countRenderedCards() {
+    function visible(el) {
+      if (!el) return false;
+      if (el.dataset && el.dataset.patchHidden === "1") return false;
+      var s = el.getAttribute("style") || "";
+      if (/display\s*:\s*none/i.test(s)) return false;
+      return true;
+    }
+    var u = Array.from(document.querySelectorAll('[data-testid^="update-card"], [data-testid^="nrx-card-update"]')).filter(visible).length;
+    var c = Array.from(document.querySelectorAll('[data-testid^="conflict-card"], [data-testid^="nrx-card-conflict"]')).filter(visible).length;
+    var n = Array.from(document.querySelectorAll('[data-testid^="news-card"], [data-testid^="nrx-card-news"]')).filter(visible).length;
+    return { updates: u, conflicts: c, news: n };
+  }
+
   // Update the four counters in the small status strip.
   // The bundle renders them as: <icon> <label> <number>. We locate by
   // searching for the exact label text, then walk to the adjacent number node.
   function refreshStripCounters(snap) {
     var data = (snap && snap.data) || {};
+    var counts = countRenderedCards();
     // Derive counts from snapshot if present, otherwise leave alone.
     var sourcesChecked = data.LAST_REFRESH && typeof data.LAST_REFRESH.sourcesChecked === "number"
       ? data.LAST_REFRESH.sourcesChecked : null;
-    var updatesPending = Array.isArray(data.UPDATES)
-      ? data.UPDATES.filter(function (u) { return u.reviewState !== "dismissed" && u.reviewState !== "resolved"; }).length
-      : null;
-    var conflictsOpen = Array.isArray(data.CONFLICTS)
-      ? data.CONFLICTS.filter(function (c) { return c.status === "open" || c.status === "unresolved"; }).length
-      : null;
-    var humanReviewNeeded =
-      (Array.isArray(data.UPDATES) ? data.UPDATES.filter(function (u) { return u.reviewState === "new"; }).length : 0) +
-      (Array.isArray(data.CONFLICTS) ? data.CONFLICTS.filter(function (c) { return c.status !== "resolved"; }).length : 0) +
-      (Array.isArray(data.NEWS) ? data.NEWS.filter(function (n) { return n.reviewState === "new"; }).length : 0);
+    // Always use rendered card counts so the strip matches the Updates panel.
+    var updatesPending = counts.updates;
+    var conflictsOpen  = counts.conflicts;
+    var humanReviewNeeded = counts.updates + counts.conflicts + counts.news;
 
     var targets = {
       "Official sources checked": sourcesChecked,
@@ -99,10 +111,63 @@
     });
   }
 
+  // Prefix the H1 (and document title) with the district code, e.g.
+  // "Voting Procedures Dashboard" -> "PA-07 Voting Procedures Dashboard".
+  // Idempotent: skips if the code is already present.
+  function refreshDistrictTitle(snap) {
+    var data = (snap && snap.data) || {};
+    var code = snap.districtCode || data.districtNumber;
+    if (!code) return;
+    var h1 = document.querySelector('[data-testid="text-dashboard-title"]') || document.querySelector("h1");
+    if (h1) {
+      var t = (h1.textContent || "").trim();
+      if (t.indexOf(code) === -1) {
+        // strip any other AZ/PA/IA-NN prefix before adding ours
+        t = t.replace(/^(AZ|PA|IA)-\d{2}\s+/, "");
+        h1.textContent = code + " " + t;
+      }
+    }
+    if (document.title && document.title.indexOf(code) === -1) {
+      document.title = code + " " + document.title.replace(/^(AZ|PA|IA)-\d{2}\s+/, "");
+    }
+  }
+
+  // Refresh the Review Queue tile (upper-left) so its three counters
+  // match what's actually rendered in the Updates panel:
+  //   - count-updates    -> # of update-card-* in DOM
+  //   - count-conflicts  -> # of conflict-card-* in DOM
+  //   - count-news       -> # of news-card-* in DOM
+  function refreshReviewQueueTile() {
+    var counts = countRenderedCards();
+    function setVal(testid, value) {
+      var el = document.querySelector('[data-testid="' + testid + '"]');
+      if (el && el.textContent.trim() !== String(value)) {
+        el.textContent = String(value);
+      }
+    }
+    setVal("count-updates", counts.updates);
+    setVal("count-conflicts", counts.conflicts);
+    setVal("count-news", counts.news);
+    // Also keep the "Needs review" badge in sync if present.
+    var badge = document.querySelector('[data-testid="stat-needs-review"]');
+    if (badge) {
+      var total = counts.updates + counts.conflicts + counts.news;
+      // Only rewrite if it looks like a plain number
+      var txt = (badge.textContent || "").trim();
+      if (/^\d+$/.test(txt) && txt !== String(total)) {
+        badge.textContent = String(total);
+      }
+    }
+  }
+
   function apply(snap) {
     if (!snap) return;
     var newDate = snap.dataAsOf;
     refreshDataAsOfText(newDate);
+    refreshDistrictTitle(snap);
+    // Counters must run AFTER patch-updates-panel.js has injected news cards,
+    // so we re-apply via interval + MutationObserver in start().
+    refreshReviewQueueTile();
     refreshStripCounters(snap);
   }
 

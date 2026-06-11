@@ -109,6 +109,8 @@
       "sourceErrors": 0,
       "summary": "PA-10 general election matchup set: Scott Perry (R) vs. Janelle Stelson (D), a 2024 rematch. The week's dominant story is the USPS mail-ballot proposed rule, which would directly affect PA-10 mail voters. Cumberland County amended Upper Allen 8 primary results June 10; Dauphin County certified primary results June 3.",
       "generatedAt": "2026-06-10T22:00:00Z"
-    }
-  }
+    },
+    "districtNumber": "PA-10"
+  },
+  "districtCode": "PA-10"
 }

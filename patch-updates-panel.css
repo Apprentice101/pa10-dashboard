@@ -1,0 +1,114 @@
+/* AZ-01 dashboard — Updates panel enhancement
+ * Adds:
+ *  - Color-coded type pill (Conflict / Update / News) on every card
+ *  - Recolored left accent stripe to match type
+ *  - "Reason" line under the title
+ * Does not change panel position, width, header, or card chrome.
+ */
+
+/* Type pill (Variant B). Placed at the start of the badge row. */
+.nrx-type-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nrx-type-pill.nrx-conflict {
+  background: hsl(0 78% 96%);
+  color: hsl(0 64% 40%);
+  border-color: hsl(0 60% 80%);
+}
+.nrx-type-pill.nrx-update {
+  background: hsl(33 100% 95%);
+  color: hsl(28 70% 38%);
+  border-color: hsl(33 70% 80%);
+}
+.nrx-type-pill.nrx-news {
+  background: hsl(213 100% 95%);
+  color: hsl(213 70% 38%);
+  border-color: hsl(213 70% 80%);
+}
+
+/* Reason line — short why-it-matters under the title */
+.nrx-reason {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: hsl(var(--muted-foreground, 215 16% 47%));
+}
+
+/* Recolored left accent stripe by type. We override the existing
+ * before-pseudo color on cards we've classified. */
+[data-nrx-type="conflict"]::before { background: hsl(0 70% 55%) !important; }
+[data-nrx-type="update"]::before   { background: hsl(28 90% 55%) !important; }
+[data-nrx-type="news"]::before     { background: hsl(213 80% 55%) !important; }
+
+/* For cards we inject (conflicts / news that aren't real Update cards),
+ * reproduce the dashboard's card shell so they sit flush with the others. */
+.nrx-injected {
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid hsl(var(--card-border, 220 13% 91%));
+  background: hsl(var(--card, 0 0% 100%));
+  padding: 12px 12px 12px 16px;
+}
+.nrx-injected::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 8px; bottom: 8px;
+  width: 3px;
+  border-radius: 999px;
+}
+.nrx-injected .nrx-row {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 8px;
+}
+.nrx-injected .nrx-main { min-width: 0; }
+.nrx-injected h3 {
+  font-size: 14px; font-weight: 500; line-height: 1.35; margin: 0;
+  color: hsl(var(--foreground, 222 47% 11%));
+}
+.nrx-injected .nrx-badges {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 2px;
+}
+.nrx-injected .nrx-meta {
+  margin-top: 8px;
+  font-size: 11px;
+  color: hsl(var(--muted-foreground, 215 16% 47%));
+  font-variant-numeric: tabular-nums;
+}
+
+/* Dismiss × button on injected Conflict/News cards.
+ * Visually matches the existing Update card's × (size-9 ghost button). */
+.nrx-dismiss {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border: 1px solid transparent;
+  background: transparent;
+  border-radius: 6px;
+  color: hsl(var(--muted-foreground, 215 16% 47%));
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+.nrx-dismiss:hover {
+  background: hsl(var(--muted, 220 14% 96%));
+  color: hsl(var(--foreground, 222 47% 11%));
+}
+.nrx-dismiss:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px hsl(var(--ring, 215 20% 65%));
+}

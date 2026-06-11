@@ -1,0 +1,114 @@
+{
+  "version": "1",
+  "dataAsOf": "2026-06-10",
+  "updatedAt": "2026-06-10T22:00:00Z",
+  "exportedAt": "2026-06-10T22:00:00Z",
+  "data": {
+    "DISTRICT": {
+      "id": "pa-10",
+      "name": "PA-10 (US Congressional District)",
+      "state": "Pennsylvania",
+      "counties": [
+        "Dauphin",
+        "York",
+        "Cumberland"
+      ]
+    },
+    "UPDATES": [],
+    "CONFLICTS": [],
+    "NEWS": [
+      {
+        "headline": "Postal Service won't deliver mail ballots for states that don't hand over voter lists",
+        "sourceName": "CNN",
+        "url": "https://www.cnn.com/2026/06/10/politics/postal-service-deliver-mail-in-ballots",
+        "publishedAt": "2026-06-10",
+        "relevanceSummary": "USPS finalized rules requiring Pennsylvania \u2014 and every state \u2014 to submit registered voter lists as a condition of receiving mail-ballot delivery service, creating a compliance deadline ahead of the November 3, 2026 general election. Dauphin, York, and Cumberland county election offices face new barcode and data-sharing mandates that could significantly alter how PA-10 voters receive and return mail ballots.",
+        "tag": "rule-change",
+        "id": "news-2026-0610-pa-10-01",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Board of Elections Meeting June 10, 2026",
+        "sourceName": "Cumberland County PA \u2013 Commissioners and Elections (YouTube)",
+        "url": "https://www.youtube.com/watch?v=t-iWC9YwQKA",
+        "publishedAt": "2026-06-10",
+        "relevanceSummary": "The Cumberland County Board of Elections held its regular post-primary meeting on June 10, laying amended Upper Allen 8 precinct results on display for a 5-day public review period before final certification \u2014 the final step in certifying the May 19, 2026 primary that set the PA-10 general election matchup.",
+        "tag": "certification",
+        "id": "news-2026-0610-pa-10-02",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Dauphin County Commissioners' meeting 6/3/2026",
+        "sourceName": "Dauphin County (YouTube)",
+        "url": "https://www.youtube.com/watch?v=zsxoECs4ORY",
+        "publishedAt": "2026-06-03",
+        "relevanceSummary": "Dauphin County's June 3 joint commissioners and election board meeting included the first certification signing of the May 19, 2026 primary results \u2014 the initial official step toward certifying Janelle Stelson's Democratic primary win and clearing the PA-10 general election ballot for November.",
+        "tag": "certification",
+        "id": "news-2026-0610-pa-10-03",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Study: Ballot curing helps more mail ballots get counted",
+        "sourceName": "Spotlight PA / Votebeat PA",
+        "url": "https://www.spotlightpa.org/news/2026/06/mail-ballot-notice-cure-study-university-pennsylvania-study-2024-election-elections/",
+        "publishedAt": "2026-06-02",
+        "relevanceSummary": "A University of Pennsylvania study of the 2024 election found that notifying PA voters of mail ballot defects before Election Day increased the chance of a ballot being counted by 25 percentage points \u2014 directly relevant to PA-10 voters in Dauphin, York, and Cumberland counties, where cure policies vary widely and roughly 20% of mail ballot requestors still don't provide an email address for error notices.",
+        "tag": "voter-resource",
+        "id": "news-2026-0610-pa-10-04",
+        "reviewState": "new"
+      },
+      {
+        "headline": "USPS mail ballot proposal could add new hurdles for voters and election officials",
+        "sourceName": "Votebeat (via WKMJ/CivicMedia)",
+        "url": "https://mix93.fm/news/2026/06/01/usps-mail-ballot-proposal-could-add-new-hurdles-for-voters-and-election-officials",
+        "publishedAt": "2026-06-01",
+        "relevanceSummary": "When USPS published proposed rules on May 29 requiring states to submit voter lists and mandating unique barcodes on every mail ballot envelope, Pennsylvania county officials \u2014 including Mercer County's election director and former PA Secretary Kathy Boockvar \u2014 warned of major compliance burdens. Small PA-10 counties in south-central Pennsylvania that lack barcode-capable vendors face thousands of dollars in unbudgeted costs ahead of the November 3, 2026 general election.",
+        "tag": "rule-change",
+        "id": "news-2026-0610-pa-10-05",
+        "reviewState": "new"
+      },
+      {
+        "headline": "'Game on': Janelle Stelson advances to general election rematch against Scott Perry",
+        "sourceName": "City & State PA",
+        "url": "https://www.cityandstatepa.com/politics/2026/05/game-janelle-stelson-advances-general-election-rematch-against-scott-perry/413655/",
+        "publishedAt": "2026-05-20",
+        "relevanceSummary": "Janelle Stelson defeated Dauphin County Commissioner Justin Douglas in the May 19 Democratic primary to set up a general election rematch against Rep. Scott Perry \u2014 the same PA-10 contest rated a toss-up by Cook Political Report that will determine whether Democrats can flip a key Harrisburg-area seat and recapture House control in November.",
+        "tag": "primary",
+        "id": "news-2026-0610-pa-10-06",
+        "reviewState": "new"
+      }
+    ],
+    "SOURCES": [],
+    "ELECTION_EVENTS": [],
+    "RULES": [],
+    "RESOURCES": [],
+    "LAST_REFRESH": {
+      "id": "run-2026-06-10T22-00-00-pa-10",
+      "startedAt": "2026-06-10T21:59:30.000Z",
+      "completedAt": "2026-06-10T22:00:00Z",
+      "triggerType": "manual",
+      "sourcesChecked": 12,
+      "updatesCreated": 0,
+      "conflictsCreated": 0,
+      "errors": [],
+      "summary": "PA-10 weekly refresh on 2026-06-10. Status: Pennsylvania primary (held), general election Nov 3 (146 days out). Incumbent: Rep. Scott Perry (R); opponent: Democrat Janelle Stelson \u2014 rematch from 2024. Six new news items added covering the past week (Jun 3-10). PA-10 general election matchup set: Scott Perry (R) vs. Janelle Stelson (D), a 2024 rematch. The week's dominant story is the USPS mail-ballot proposed rule, which would directly affect PA-10 mail voters. Cumberland County amended Upper Allen 8 primary results June 10; Dauphin County certified primary results June 3. Procedural rules and election-event dates unchanged from the bundle baseline; all news items routed to the human-review queue for editor confirmation."
+    },
+    "NEXT_REFRESH_AT": "2026-06-12T22:00:00Z",
+    "WEEKLY_REPORT": {
+      "id": "wr-2026-w24-pa-10",
+      "periodStart": "2026-06-08",
+      "periodEnd": "2026-06-14",
+      "sourcesChecked": 12,
+      "newUpdates": 0,
+      "conflictsCreated": 0,
+      "conflictsResolved": 0,
+      "deadlinesChanged": 0,
+      "rulesChanged": 0,
+      "newsItems": 6,
+      "needsReview": 6,
+      "sourceErrors": 0,
+      "summary": "PA-10 general election matchup set: Scott Perry (R) vs. Janelle Stelson (D), a 2024 rematch. The week's dominant story is the USPS mail-ballot proposed rule, which would directly affect PA-10 mail voters. Cumberland County amended Upper Allen 8 primary results June 10; Dauphin County certified primary results June 3.",
+      "generatedAt": "2026-06-10T22:00:00Z"
+    }
+  }
+}

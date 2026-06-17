@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-02",
-  "updatedAt": "2026-06-02T21:45:00Z",
-  "exportedAt": "2026-06-15T19:44:26.848Z",
+  "dataAsOf": "2026-06-17",
+  "updatedAt": "2026-06-17T22:35:00Z",
+  "exportedAt": "2026-06-17T22:42:48.024Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -678,6 +678,36 @@
         "severity": "low",
         "reviewState": "new",
         "visibility": "internal"
+      },
+      {
+        "id": "upd-005",
+        "title": "General-election deadlines re-verified against PA Department of State; no changes detected",
+        "fieldChanged": "General election 2026 deadlines",
+        "oldValue": "Deadlines confirmed as of 2026-05-26 initial build.",
+        "newValue": "As of the June 17, 2026 refresh, PA Department of State guidance still lists October 19, 2026 as the voter registration deadline, October 27, 2026 as the mail-in/absentee application deadline, and November 3, 2026 as Election Day with mail ballots due by 8:00 PM. Postmarks do not count. Envelope-dating signature requirement still in effect per PA DoS mail-ballot guidance.",
+        "sourceIds": [
+          "src-pa-upcoming",
+          "src-pa-mail-absentee"
+        ],
+        "detectedAt": "2026-06-17T22:30:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-006",
+        "title": "SCOTUS denied RNC emergency request on PA provisional-ballot backstop (June 6, 2026)",
+        "fieldChanged": "Provisional ballot rule (Coalfield Justice backstop)",
+        "oldValue": "Provisional-ballot backstop under PA Supreme Court ruling in Center for Coalfield Justice v. Washington County Board of Elections still operative; awaiting any federal challenge.",
+        "newValue": "On June 6, 2026, the U.S. Supreme Court denied the RNC's emergency request to block PA from counting provisional ballots cast by voters whose mail-in ballots were invalid due to envelope errors. Denial was procedural — the case (limited to two voters in one county) was not a proper vehicle for statewide relief. Justices Alito, Thomas, and Gorsuch wrote separately leaving the underlying constitutional question open. The Coalfield Justice provisional-ballot backstop remains operative for November 3, 2026.",
+        "sourceIds": [
+          "src-spotlight-pa",
+          "src-pa-mail-absentee"
+        ],
+        "detectedAt": "2026-06-17T22:35:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "public"
       }
     ],
     "CONFLICTS": [
@@ -766,35 +796,55 @@
         "relevanceSummary": "SAVE America Act (passed House) would require proof of citizenship to register and add photo ID requirements. Election officials say it is practically impossible to implement before midterms. Senate filibuster barrier likely blocks passage. If enacted, would affect new voter registration in PA-10.",
         "tag": "legislation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-007",
+        "headline": "PA primary results: Stelson (D) wins 69-31 to face Perry (R) in PA-10 toss-up rematch",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/05/primary-election-results-us-house-pennsylvaia-contested-races-elections/",
+        "publishedAt": "2026-05-19",
+        "relevanceSummary": "Statewide primary recap: former TV anchor Janelle Stelson defeated Dauphin County Commissioner Justin Douglas (69-31) for the Democratic nomination; incumbent Scott Perry (R) ran unopposed. Sets up rematch of 2024 race, which Perry won by roughly 5,100 votes. Sabato's Crystal Ball rates the Nov. 3 race a toss-up.",
+        "tag": "results",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-008",
+        "headline": "SCOTUS denies RNC emergency request to block PA provisional-ballot backstop",
+        "sourceName": "Voting Rights Lab",
+        "url": "https://votingrightslab.org/report/https-votingrightslab-org-report-whats-at-stake-for-elections-at-the-supreme-court/",
+        "publishedAt": "2026-06-06",
+        "relevanceSummary": "On June 6, 2026, SCOTUS denied the RNC's emergency request to stop PA from counting provisional ballots from voters whose mail-in ballots had envelope errors. Denial was procedural (case was limited to two voters in one county). Alito/Thomas/Gorsuch wrote separately leaving the constitutional question open.",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-05-26-pa10-initial",
-      "startedAt": "2026-06-02T21:00:00Z",
-      "completedAt": "2026-06-02T21:45:00Z",
+      "id": "run-2026-06-17-pa10-refresh-2",
+      "startedAt": "2026-06-17T22:10:00Z",
+      "completedAt": "2026-06-17T22:35:00Z",
       "triggerType": "manual",
       "sourcesChecked": 14,
-      "updatesCreated": 4,
-      "conflictsCreated": 1,
+      "updatesCreated": 2,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "Initial build May 26, 2026. PA-10 primary passed May 19 — Stelson (D) and Perry (R) advance to Nov 3 general rematch. All primary tiles forward to general election equivalents. Mail ballot dating SCOTUS petition responses due June 1 — key watch. CVR public records ruling (April 2026) adds new transparency obligations. 3 county offices verified (Dauphin, Cumberland, York)."
+      "summary": "June 17, 2026 bi-weekly refresh for PA-10. Re-verified PA Department of State upcoming-elections and mail-in/absentee guidance directly: general-election deadlines unchanged (Oct. 19 registration, Oct. 27 mail-application, Nov. 3 Election Day and 8:00 PM mail-ballot receipt; postmarks do not count; envelope-dating signature requirement still in effect). Stelson (D, won 69-31) vs. Perry (R, incumbent, unopposed) confirmed for Nov. 3 rematch. New: documented June 6, 2026 SCOTUS denial of RNC emergency request on PA provisional-ballot backstop (Coalfield Justice rule survives). Commonwealth v. Eakin (envelope-dating) still pending at SCOTUS. Watson v. RNC (Mississippi/Alaska late ballots) decision expected end of June; PA receipt-by-8pm rule unaffected directly. All lastVerified dates bumped to 2026-06-17. No confidence flips."
     },
-    "NEXT_REFRESH_AT": "2026-06-02T19:56:00Z",
+    "NEXT_REFRESH_AT": "2026-07-01T22:10:00Z",
     "WEEKLY_REPORT": {
-      "id": "wr-pa10-2026-w21",
-      "periodStart": "2026-05-19",
-      "periodEnd": "2026-05-26",
+      "id": "wr-pa10-2026-w25",
+      "periodStart": "2026-06-03",
+      "periodEnd": "2026-06-17",
       "sourcesChecked": 14,
-      "newUpdates": 4,
-      "conflictsCreated": 1,
+      "newUpdates": 2,
+      "conflictsCreated": 0,
       "conflictsResolved": 0,
       "deadlinesChanged": 0,
       "rulesChanged": 0,
-      "newsItems": 6,
+      "newsItems": 2,
       "needsReview": 2,
       "sourceErrors": 0,
-      "summary": "Initial build week of May 19–26, 2026. PA-10 primary held May 19 — Janelle Stelson (D) defeated Justin Douglas; Scott Perry (R, incumbent) advanced. Rematch set for November 3. All primary tiles forward to general election equivalents. Key watches: SCOTUS mail ballot dating petition (June 1 responses), cast vote records compliance uncertainty. PA-10 covers Dauphin (full — Harrisburg), Cumberland (partial — Carlisle/Mechanicsburg), and York (partial — York city).",
-      "generatedAt": "2026-06-02T21:45:00Z"
+      "summary": "Bi-weekly period June 3–17, 2026: General-election deadlines re-verified directly against PA DoS — unchanged. Stelson (D) vs. Perry (R) confirmed for Nov. 3 rematch (Sabato rates toss-up). New litigation watch: SCOTUS denied RNC emergency request (June 6) on PA provisional-ballot backstop — Coalfield Justice rule survives. Commonwealth v. Eakin (envelope-dating) still pending. No procedure changes detected; no confidence flips.",
+      "generatedAt": "2026-06-17T22:35:00Z"
     }
   }
 }

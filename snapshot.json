@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-17",
-  "updatedAt": "2026-06-17T22:35:00Z",
-  "exportedAt": "2026-07-01T05:40:37.457Z",
+  "dataAsOf": "2026-07-01",
+  "updatedAt": "2026-07-01T19:57:26.707Z",
+  "exportedAt": "2026-07-01T20:04:25.499Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -140,7 +140,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-vote-pa": {
@@ -164,7 +164,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-01",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -203,7 +203,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-01",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -458,7 +458,7 @@
       {
         "id": "rule-tracking",
         "topic": "Mail-ballot tracking",
-        "currentRule": "Voters can track their mail-in or absentee ballot status through PA Voter Services from application through receipt at the county election office.",
+        "currentRule": "Voters can track the status of their mail-in or absentee ballot by completing the fields on the Online/Absentee Ballot Tracking page in PA Voter Services. The tracker cannot be used to track the status of a ballot voted in person on Election Day.",
         "status": "active",
         "whyItMatters": "Lets voters confirm their ballot was received in time and resolve issues before deadlines.",
         "governingLevel": "statewide",
@@ -501,7 +501,7 @@
       {
         "id": "rule-pa-no-early-voting",
         "topic": "No in-person early voting",
-        "currentRule": "Pennsylvania does not offer in-person early voting at polling places. Pre-Election Day voting requires requesting and returning a mail-in or absentee ballot.",
+        "currentRule": "Pennsylvania does not offer traditional in-person early voting at neighborhood polling places before Election Day. However, registered voters may vote early by going in person to their county election office or other designated location to request, receive, mark, and return a mail-in or absentee ballot in a single visit.",
         "status": "active",
         "whyItMatters": "Voters who want to vote early must use the mail-in/absentee process and meet the Oct 27 application deadline.",
         "governingLevel": "statewide",
@@ -819,17 +819,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-06-17-pa10-refresh-2",
-      "startedAt": "2026-06-17T22:10:00Z",
-      "completedAt": "2026-06-17T22:35:00Z",
-      "triggerType": "manual",
-      "sourcesChecked": 14,
+      "id": "run-2026-07-01-pa10-auto",
+      "startedAt": "2026-07-01T19:56:59.877Z",
+      "completedAt": "2026-07-01T19:57:26.707Z",
+      "triggerType": "scheduled",
+      "sourcesChecked": 16,
       "updatesCreated": 2,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "June 17, 2026 bi-weekly refresh for PA-10. Re-verified PA Department of State upcoming-elections and mail-in/absentee guidance directly: general-election deadlines unchanged (Oct. 19 registration, Oct. 27 mail-application, Nov. 3 Election Day and 8:00 PM mail-ballot receipt; postmarks do not count; envelope-dating signature requirement still in effect). Stelson (D, won 69-31) vs. Perry (R, incumbent, unopposed) confirmed for Nov. 3 rematch. New: documented June 6, 2026 SCOTUS denial of RNC emergency request on PA provisional-ballot backstop (Coalfield Justice rule survives). Commonwealth v. Eakin (envelope-dating) still pending at SCOTUS. Watson v. RNC (Mississippi/Alaska late ballots) decision expected end of June; PA receipt-by-8pm rule unaffected directly. All lastVerified dates bumped to 2026-06-17. No confidence flips."
+      "summary": "Automated refresh completed 2026-07-01 for PA-10. Sources checked: 16. LLM verifications: 8. 2 rule/source content changes + 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-01T22:10:00Z",
+    "NEXT_REFRESH_AT": "2026-07-08T19:57:26.707Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-01",
-  "updatedAt": "2026-07-01T19:57:26.707Z",
-  "exportedAt": "2026-07-03T00:04:31.508Z",
+  "dataAsOf": "2026-07-03",
+  "updatedAt": "2026-07-03T00:32:45.745Z",
+  "exportedAt": "2026-07-03T00:38:24.210Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -140,7 +140,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-vote-pa": {
@@ -164,7 +164,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -203,7 +203,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -819,17 +819,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-01-pa10-auto",
-      "startedAt": "2026-07-01T19:56:59.877Z",
-      "completedAt": "2026-07-01T19:57:26.707Z",
+      "id": "run-2026-07-03-pa10-auto",
+      "startedAt": "2026-07-03T00:32:23.162Z",
+      "completedAt": "2026-07-03T00:32:45.745Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 16,
-      "updatesCreated": 2,
-      "conflictsCreated": 0,
+      "sourcesChecked": 15,
+      "updatesCreated": 0,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-01 for PA-10. Sources checked: 16. LLM verifications: 8. 2 rule/source content changes + 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-03 for PA-10. Sources checked: 15. LLM verifications: 8. 7 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-07-08T19:57:26.707Z",
+    "NEXT_REFRESH_AT": "2026-07-10T00:32:45.745Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

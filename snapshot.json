@@ -1,8 +1,8 @@
 {
   "version": "1",
   "dataAsOf": "2026-07-03",
-  "updatedAt": "2026-07-03T00:32:45.745Z",
-  "exportedAt": "2026-07-03T00:38:24.210Z",
+  "updatedAt": "2026-07-03T01:36:50.883Z",
+  "exportedAt": "2026-07-03T01:43:48.594Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -820,16 +820,16 @@
     ],
     "LAST_REFRESH": {
       "id": "run-2026-07-03-pa10-auto",
-      "startedAt": "2026-07-03T00:32:23.162Z",
-      "completedAt": "2026-07-03T00:32:45.745Z",
+      "startedAt": "2026-07-03T01:36:31.143Z",
+      "completedAt": "2026-07-03T01:36:50.883Z",
       "triggerType": "scheduled",
       "sourcesChecked": 15,
       "updatesCreated": 0,
-      "conflictsCreated": 1,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-03 for PA-10. Sources checked: 15. LLM verifications: 8. 7 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-07-03 for PA-10. Sources checked: 15. LLM verifications: 7. No changes detected; all sources verified unchanged."
     },
-    "NEXT_REFRESH_AT": "2026-07-10T00:32:45.745Z",
+    "NEXT_REFRESH_AT": "2026-07-10T01:36:50.883Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

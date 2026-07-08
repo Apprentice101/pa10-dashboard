@@ -1,8 +1,8 @@
 {
   "version": "1",
   "dataAsOf": "2026-07-08",
-  "updatedAt": "2026-07-08T06:26:14.488Z",
-  "exportedAt": "2026-07-08T06:29:49.664Z",
+  "updatedAt": "2026-07-08T19:39:04.090Z",
+  "exportedAt": "2026-07-08T19:44:30.561Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -190,7 +190,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-08",
         "confidence": "high",
         "notes": "Phone: (717) 771-9604. 28 East Market Street, B003, York, PA 17401."
       },
@@ -820,16 +820,16 @@
     ],
     "LAST_REFRESH": {
       "id": "run-2026-07-08-pa10-auto",
-      "startedAt": "2026-07-08T06:26:09.142Z",
-      "completedAt": "2026-07-08T06:26:14.488Z",
+      "startedAt": "2026-07-08T19:38:59.562Z",
+      "completedAt": "2026-07-08T19:39:04.090Z",
       "triggerType": "scheduled",
       "sourcesChecked": 19,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-08 for PA-10. Sources checked: 19. LLM verifications: 11. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-08 for PA-10. Sources checked: 19. LLM verifications: 9. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-15T06:26:14.488Z",
+    "NEXT_REFRESH_AT": "2026-07-15T19:39:04.090Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-08",
   "updatedAt": "2026-07-08T19:39:04.090Z",
-  "exportedAt": "2026-07-08T20:36:36.110Z",
+  "exportedAt": "2026-07-09T17:05:21.768Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -561,34 +561,64 @@
     ],
     "RESOURCES": [
       {
-        "id": "res-vote-pa",
-        "label": "Vote.PA.gov — Official PA Voter Information",
+        "id": "res-register",
+        "label": "Register to vote",
         "description": "Official Pennsylvania elections portal. Register to vote, request mail ballot, track ballot, find polling place. Available in English, Spanish, and Chinese.",
         "url": "https://www.vote.pa.gov",
         "governingAuthority": "Pennsylvania Department of State",
         "sourceType": "official-state",
         "sourceId": "src-vote-pa",
-        "lastVerified": "2026-05-26"
+        "lastVerified": "2026-07-08"
       },
       {
-        "id": "res-pa-ballot-tracking",
-        "label": "PA Mail Ballot Tracker",
-        "description": "Track the status of your mail-in or absentee ballot online through the official PA voter services portal.",
-        "url": "https://www.pavoterservices.pa.gov/Pages/BallotTracking.aspx",
+        "id": "res-locations",
+        "label": "Find voting locations",
+        "description": "Official Pennsylvania elections portal. Register to vote, request mail ballot, track ballot, find polling place. Available in English, Spanish, and Chinese.",
+        "url": "https://www.vote.pa.gov",
         "governingAuthority": "Pennsylvania Department of State",
         "sourceType": "official-state",
-        "sourceId": "src-pa-ballot-tracking",
-        "lastVerified": "2026-05-26"
+        "sourceId": "src-vote-pa",
+        "lastVerified": "2026-07-08"
       },
       {
-        "id": "res-dauphin",
-        "label": "Dauphin County Registration & Elections (Harrisburg)",
-        "description": "Covers Harrisburg and all of Dauphin County. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg.",
-        "url": "https://www.dauphincounty.gov/government/support-services/registration-elections",
-        "governingAuthority": "Dauphin County Bureau of Elections",
-        "sourceType": "official-county",
-        "sourceId": "src-dauphin-elections",
-        "lastVerified": "2026-05-26"
+        "id": "res-ballot-box",
+        "label": "Find ballot boxes",
+        "description": "Official state-level lookup for mail-in and absentee ballot return locations, including drop boxes and election offices, filterable by county.",
+        "url": "https://www.pa.gov/agencies/vote/voter-support/mail-in-and-absentee-ballot/return-ballot",
+        "governingAuthority": "Pennsylvania Department of State",
+        "sourceType": "official-state",
+        "sourceId": "src-pa-dos",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-check-reg",
+        "label": "Check registration status",
+        "description": "Confirm your Pennsylvania voter registration, party affiliation, and polling place.",
+        "url": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
+        "governingAuthority": "Pennsylvania Department of State",
+        "sourceType": "official-state",
+        "sourceId": "src-pa-dos",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-track",
+        "label": "Track your ballot",
+        "description": "Official Pennsylvania elections portal. Register to vote, request mail ballot, track ballot, find polling place. Available in English, Spanish, and Chinese.",
+        "url": "https://www.vote.pa.gov",
+        "governingAuthority": "Pennsylvania Department of State",
+        "sourceType": "official-state",
+        "sourceId": "src-vote-pa",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-results",
+        "label": "Election results",
+        "description": "Official Pennsylvania election returns.",
+        "url": "https://www.electionreturns.pa.gov/",
+        "governingAuthority": "PA Department of State",
+        "sourceType": "official-state",
+        "sourceId": "src-pa-dos",
+        "lastVerified": "2026-07-08"
       },
       {
         "id": "res-cumberland",
@@ -598,16 +628,6 @@
         "governingAuthority": "Cumberland County Voter Services",
         "sourceType": "official-county",
         "sourceId": "src-cumberland-elections",
-        "lastVerified": "2026-05-26"
-      },
-      {
-        "id": "res-york",
-        "label": "York County Elections & Voter Registration",
-        "description": "Covers York city and surrounding townships. Phone: (717) 771-9604. 28 East Market Street, B003, York.",
-        "url": "https://yorkcountypa.gov/503/Elections-Voter-Registration",
-        "governingAuthority": "York County Elections & Voter Registration",
-        "sourceType": "official-county",
-        "sourceId": "src-york-elections",
         "lastVerified": "2026-05-26"
       },
       {

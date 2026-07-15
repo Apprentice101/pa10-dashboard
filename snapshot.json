@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-08",
-  "updatedAt": "2026-07-08T19:39:04.090Z",
-  "exportedAt": "2026-07-09T17:05:21.768Z",
+  "dataAsOf": "2026-07-15",
+  "updatedAt": "2026-07-15T06:34:42.467Z",
+  "exportedAt": "2026-07-15T06:41:40.666Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -164,7 +164,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-15",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -203,7 +203,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -836,20 +836,60 @@
         "relevanceSummary": "On June 6, 2026, SCOTUS denied the RNC's emergency request to stop PA from counting provisional ballots from voters whose mail-in ballots had envelope errors. Denial was procedural (case was limited to two voters in one county). Alito/Thomas/Gorsuch wrote separately leaving the constitutional question open.",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0rk8lsi",
+        "headline": "Pa. House passes ‘pre-canvassing' bill that would speed up election results",
+        "sourceName": "KYW Newsradio",
+        "url": "https://www.audacy.com/kywnewsradio/news/local/pa-bill-pre-canvassing-election-ballots",
+        "publishedAt": "2026-07-10",
+        "relevanceSummary": "The Pennsylvania House passed a bill allowing county officials to begin pre-canvassing mail-in ballots one week before Election Day, which would change how and when mail ballots are processed and could speed up reported results for voters statewide, including those in PA-10.[1]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0v357tt",
+        "headline": "PA voting laws could change if Democrats win 2026 elections",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/07/election-law-changes-democratic-trifecta-2026-midterm-shapiro-elections/",
+        "publishedAt": "2026-07-08",
+        "relevanceSummary": "Spotlight PA reports that if Democrats gain full control of Pennsylvania’s government, they plan changes to election law including expanded pre-canvassing of mail ballots, codifying drop boxes, electronic pollbooks, early voting, and same-day voter registration, all of which would directly affect voting procedures statewide for PA-10 voters.[3]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-03e1jua",
+        "headline": "Trump’s DOJ said Pa. election officials could be criminally charged if they let noncitizens vote",
+        "sourceName": "The Philadelphia Inquirer",
+        "url": "https://www.inquirer.com/politics/pennsylvania-election-officials-doj-warning-voting-letters-20260708.html",
+        "publishedAt": "2026-07-08",
+        "relevanceSummary": "The article reports that the U.S. Department of Justice sent letters warning Pennsylvania’s top election officials that they could face criminal charges if they allow noncitizens’ votes to be counted, reiterating existing federal prohibitions and outlining potential criminal provisions; this directly affects how statewide and county election administrators handle voter registration, ballot eligibility checks, and vote counting procedures for all Pennsylvania voters, including those in PA-10.[1]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0d0mjd1",
+        "headline": "Modernize the Election Code to ensure clear, consistent, and efficient recount processes while preventing frivolous recount petitions",
+        "sourceName": "Luzerne County, PA (News Flash)",
+        "url": "https://www.luzernecounty.org/m/newsflash",
+        "publishedAt": "2026-07-01",
+        "relevanceSummary": "Luzerne County officials are publicly advocating for statewide modernization of Pennsylvania’s Election Code to create uniform recount procedures and clearer standards for recount petitions, which could shape future statewide rules on recounts and election administration impacting all counties, including those in PA-10.[4]",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-08-pa10-auto",
-      "startedAt": "2026-07-08T19:38:59.562Z",
-      "completedAt": "2026-07-08T19:39:04.090Z",
+      "id": "run-2026-07-15-pa10-auto",
+      "startedAt": "2026-07-15T06:33:33.078Z",
+      "completedAt": "2026-07-15T06:34:42.467Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 19,
-      "updatesCreated": 0,
-      "conflictsCreated": 0,
+      "sourcesChecked": 14,
+      "updatesCreated": 4,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-08 for PA-10. Sources checked: 19. LLM verifications: 9. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-15 for PA-10. Sources checked: 14. LLM verifications: 14. 5 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-07-15T19:39:04.090Z",
+    "NEXT_REFRESH_AT": "2026-07-22T06:34:42.467Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-15",
-  "updatedAt": "2026-07-15T06:34:42.467Z",
-  "exportedAt": "2026-07-15T06:41:40.666Z",
+  "dataAsOf": "2026-07-22",
+  "updatedAt": "2026-07-22T06:45:15.755Z",
+  "exportedAt": "2026-07-22T06:53:13.801Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -164,7 +164,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -203,7 +203,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -879,17 +879,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-15-pa10-auto",
-      "startedAt": "2026-07-15T06:33:33.078Z",
-      "completedAt": "2026-07-15T06:34:42.467Z",
+      "id": "run-2026-07-22-pa10-auto",
+      "startedAt": "2026-07-22T06:44:36.186Z",
+      "completedAt": "2026-07-22T06:45:15.755Z",
       "triggerType": "scheduled",
       "sourcesChecked": 14,
-      "updatesCreated": 4,
+      "updatesCreated": 0,
       "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-15 for PA-10. Sources checked: 14. LLM verifications: 14. 5 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-07-22 for PA-10. Sources checked: 14. LLM verifications: 10. 5 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-07-22T06:34:42.467Z",
+    "NEXT_REFRESH_AT": "2026-07-29T06:45:15.755Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

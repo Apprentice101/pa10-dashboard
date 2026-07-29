@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-22",
-  "updatedAt": "2026-07-22T06:45:15.755Z",
-  "exportedAt": "2026-07-22T21:18:19.544Z",
+  "dataAsOf": "2026-07-29",
+  "updatedAt": "2026-07-29T06:49:01.581Z",
+  "exportedAt": "2026-07-29T06:56:57.654Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -164,7 +164,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -203,7 +203,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -876,20 +876,60 @@
         "relevanceSummary": "Luzerne County officials are publicly advocating for statewide modernization of Pennsylvania’s Election Code to create uniform recount procedures and clearer standards for recount petitions, which could shape future statewide rules on recounts and election administration impacting all counties, including those in PA-10.[4]",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0igi3zv",
+        "headline": "Pa. Republicans in Congress stay quiet on Trump's new SAVE America Act",
+        "sourceName": "The Philadelphia Inquirer",
+        "url": "https://www.inquirer.com/politics/pennsylvania/dave-mccormick-donald-trump-save-america-act-election-fraud-20260726.html",
+        "publishedAt": "2026-07-26",
+        "relevanceSummary": "The article explains that the proposed SAVE America Act would require proof of citizenship when registering to vote and photo ID at the polls, and would scale back mail voting, amid debate among Pennsylvania Republicans in Congress.[4] These potential federal changes to registration, voter-ID, and mail-voting rules would directly affect Pennsylvania’s election procedures and thus voters in PA-10 if enacted.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-053qw7n",
+        "headline": "Republicans point to New Jersey voting glitch in final push for SAVE Act before Congress' summer recess",
+        "sourceName": "ABC News",
+        "url": "https://abcnews.com/Politics/republicans-point-new-jersey-voting-glitch-final-push/story?id=134994636",
+        "publishedAt": "2026-07-25",
+        "relevanceSummary": "This story describes Republican efforts to advance the SAVE America Act, which would require states to obtain in-person documentary proof of U.S. citizenship before registering voters, mandate photo ID at the time of voting, and require removal of noncitizens from voter rolls.[5] If passed, these federal requirements would change voter-registration and voter-ID procedures that Pennsylvania, including PA-10, must follow for federal elections.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0pe9n4l",
+        "headline": "U.S. House passes bill requiring photo ID for federal elections",
+        "sourceName": "ABC 6 News (KAAL)",
+        "url": "https://www.kaaltv.com/news/u-s-house-passes-bill-requiring-photo-id-for-federal-elections/",
+        "publishedAt": "2026-07-24",
+        "relevanceSummary": "This piece reports that the House approved legislation mandating physical photo ID for all voters in federal elections and requiring mail-in absentee voters to include a photocopy of their photo ID with their ballot, while still permitting provisional ballots for eligible voters who lack ID at the polls.[2] The bill is now headed to the Senate, and if it becomes law, it would alter federal voter-ID and mail-ballot rules for Pennsylvania voters, including those in PA-10.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0uw1iut",
+        "headline": "House passes bill that would ban members from buying stock",
+        "sourceName": "ABC News",
+        "url": "https://abcnews.com/Politics/house-passes-bill-ban-members-buying-stock/story?id=135001297",
+        "publishedAt": "2026-07-24",
+        "relevanceSummary": "The U.S. House passed a bill that would require voters nationwide, including Pennsylvanians, to present a valid physical photo ID when casting a ballot for federal office and to include a photocopy of their ID with any mail-in or absentee ballot, while allowing provisional ballots for those who forget ID.[1] If enacted, this would directly change voter-ID and mail-ballot procedures for PA-10 voters in federal elections.",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-22-pa10-auto",
-      "startedAt": "2026-07-22T06:44:36.186Z",
-      "completedAt": "2026-07-22T06:45:15.755Z",
+      "id": "run-2026-07-29-pa10-auto",
+      "startedAt": "2026-07-29T06:48:24.168Z",
+      "completedAt": "2026-07-29T06:49:01.581Z",
       "triggerType": "scheduled",
       "sourcesChecked": 14,
-      "updatesCreated": 0,
+      "updatesCreated": 4,
       "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-22 for PA-10. Sources checked: 14. LLM verifications: 10. 5 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-07-29 for PA-10. Sources checked: 14. LLM verifications: 7. 6 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-07-29T06:45:15.755Z",
+    "NEXT_REFRESH_AT": "2026-08-05T06:49:01.581Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

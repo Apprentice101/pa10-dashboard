@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-29",
-  "updatedAt": "2026-07-29T06:49:01.581Z",
-  "exportedAt": "2026-07-29T06:56:57.654Z",
+  "dataAsOf": "2026-08-05",
+  "updatedAt": "2026-08-05T06:42:36.781Z",
+  "exportedAt": "2026-08-05T06:50:31.632Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -164,7 +164,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -203,7 +203,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -916,20 +916,80 @@
         "relevanceSummary": "The U.S. House passed a bill that would require voters nationwide, including Pennsylvanians, to present a valid physical photo ID when casting a ballot for federal office and to include a photocopy of their ID with any mail-in or absentee ballot, while allowing provisional ballots for those who forget ID.[1] If enacted, this would directly change voter-ID and mail-ballot procedures for PA-10 voters in federal elections.",
         "tag": "voter-id",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-043biq7",
+        "headline": "5 Senators press Thune on SAVE America Act as voter roll cleanup costs Dems 9,000 in Pennsylvania",
+        "sourceName": "PJ Media",
+        "url": "https://pjmedia.com/catherinesalgado/2026/07/27/5-senators-press-thune-on-save-america-act-as-voter-roll-cleanup-costs-dems-9000-in-pennsylvania-n4955492",
+        "publishedAt": "2026-07-27",
+        "relevanceSummary": "PJ Media describes GOP senators urging action on the SAVE America Act and notes that voter roll maintenance in Pennsylvania removed thousands of registrations, highlighting both proposed federal voter ID and citizenship rules and current list-cleanup practices that could affect registration status for PA-10 voters.[1][16]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-00rs05q",
+        "headline": "Rep. Smucker again supports passage of SAVE America voter ID requirements",
+        "sourceName": "LNP | LancasterOnline",
+        "url": "https://lancasteronline.com/news/politics/rep-smucker-again-supports-passage-of-save-america-voter-id-requirements/article_365a41c8-f3be-4d02-823f-6f05e316bab3.html",
+        "publishedAt": "2026-07-24",
+        "relevanceSummary": "LancasterOnline reports that U.S. Rep. Lloyd Smucker backed advancing the SAVE America Act, a GOP package that would mandate voter ID and proof of citizenship for registration, signaling momentum behind federal changes that could tighten ID and registration procedures for all Pennsylvania voters including those in PA-10.[6][16]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0t6tndp",
+        "headline": "The 13 Democrats who backed voter ID at elections",
+        "sourceName": "Newsweek",
+        "url": "https://www.newsweek.com/the-13-democrats-who-backed-voter-id-at-elections-12233445",
+        "publishedAt": "2026-07-24",
+        "relevanceSummary": "Newsweek explains that House Democrats joined Republicans to pass legislation containing new federal voter ID requirements as part of H.R. 7008 and the SAVE America Act, which would require documentary proof of citizenship and national voter ID standards that could alter how PA-10 voters prove eligibility and identity at the polls.[16]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-00e9ps6",
+        "headline": "Former Pa. Gov. Corbett co-authors column criticizing fellow Republicans' SAVE Act",
+        "sourceName": "PennLive",
+        "url": "https://www.pennlive.com/politics/2026/07/former-pa-gov-corbett-co-authors-column-criticizing-fellow-republicans-save-act.html",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "PennLive reports that former Gov. Tom Corbett opposes the federal SAVE America Act, which would impose stricter voter identification and proof-of-citizenship rules for federal elections, potentially changing registration and ID requirements for Pennsylvania voters including those in PA-10 if enacted.[14][16]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-04i18in",
+        "headline": "Legislative Update: Pennsylvania Office of Open Records changes electronic filing rules",
+        "sourceName": "Pennsylvania NewsMedia Association",
+        "url": "https://panewsmedia.org/legislative-affairs/legislative-update/",
+        "publishedAt": "2026-07-21",
+        "relevanceSummary": "The Pennsylvania NewsMedia Association notes that effective April 20, 2026, the Office of Open Records requires appeals to be filed through its online portal rather than email, a procedural change that could affect how voters, campaigns, and media challenge election-related public records decisions statewide, including in PA-10.[18]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-093kjen",
+        "headline": "Pennsylvania",
+        "sourceName": "VoteRiders",
+        "url": "https://voteriders.org/states/pennsylvania/",
+        "publishedAt": "2026-07-20",
+        "relevanceSummary": "VoteRiders provides updated guidance on Pennsylvania’s voter ID rules, explaining that ID is generally required only the first time a voter casts a ballot in a precinct and detailing acceptable IDs and ID-copy requirements for mail ballot requests, information directly relevant to PA-10 voters preparing for November.[11]",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-29-pa10-auto",
-      "startedAt": "2026-07-29T06:48:24.168Z",
-      "completedAt": "2026-07-29T06:49:01.581Z",
+      "id": "run-2026-08-05-pa10-auto",
+      "startedAt": "2026-08-05T06:41:49.404Z",
+      "completedAt": "2026-08-05T06:42:36.781Z",
       "triggerType": "scheduled",
       "sourcesChecked": 14,
-      "updatesCreated": 4,
+      "updatesCreated": 6,
       "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-29 for PA-10. Sources checked: 14. LLM verifications: 7. 6 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-08-05 for PA-10. Sources checked: 14. LLM verifications: 9. 6 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-08-05T06:49:01.581Z",
+    "NEXT_REFRESH_AT": "2026-08-12T06:42:36.781Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

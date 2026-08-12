@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-05",
-  "updatedAt": "2026-08-05T06:42:36.781Z",
-  "exportedAt": "2026-08-05T06:50:31.632Z",
+  "dataAsOf": "2026-08-12",
+  "updatedAt": "2026-08-12T05:42:55.886Z",
+  "exportedAt": "2026-08-12T05:49:56.317Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -164,7 +164,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -203,7 +203,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -976,20 +976,50 @@
         "relevanceSummary": "VoteRiders provides updated guidance on Pennsylvania’s voter ID rules, explaining that ID is generally required only the first time a voter casts a ballot in a precinct and detailing acceptable IDs and ID-copy requirements for mail ballot requests, information directly relevant to PA-10 voters preparing for November.[11]",
         "tag": "voter-id",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0euffjz",
+        "headline": "Every summer. Every year. All 67 counties in Pennsylvania conduct ...",
+        "sourceName": "Pennsylvania Department of State / Commissioner Schmidt",
+        "url": "https://x.com/Commish_Schmidt/status/2085155205922865486",
+        "publishedAt": "2026-08-10",
+        "relevanceSummary": "The post says all 67 Pennsylvania counties are completing routine voter list maintenance and that the Department of State is highlighting the process to keep rolls accurate heading into November. That is statewide election administration relevant to PA-10 because it can affect registration status and mail-ballot eligibility across Pennsylvania.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-04vp3bo",
+        "headline": "PA's Routine Voter List Maintenance Helps Ensure Accurate Voter Rolls and Protect Eligible Voters",
+        "sourceName": "BCTV",
+        "url": "https://www.bctv.org/2026/08/10/pennsylvanias-routine-voter-list-maintenance-helps-ensure-accurate-voter-rolls-and-protect-eligible-voters/",
+        "publishedAt": "2026-08-10",
+        "relevanceSummary": "The article explains Pennsylvania’s annual voter-list maintenance and says state law requires voters to verify identity when registering and to show identification when voting for the first time at a new polling place. That is directly relevant to PA-10 voters because it affects registration status, polling-place eligibility, and first-time ID requirements statewide.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0goulft",
+        "headline": "Voters spared as Senate recesses without passing SAVE America Act’s voter ID measure",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/voters-spared-as-senate-recesses-without-passing-save-america-acts-voter-id-measure/",
+        "publishedAt": "2026-08-10",
+        "relevanceSummary": "The story says Senate Republicans failed to advance a narrowed federal voter-photo-ID bill before recess, so the proposal did not become law. It matters to PA-10 voters because the measure would have changed federal election rules, including the IDs accepted to vote and how provisional ballots would work.",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-05-pa10-auto",
-      "startedAt": "2026-08-05T06:41:49.404Z",
-      "completedAt": "2026-08-05T06:42:36.781Z",
+      "id": "run-2026-08-12-pa10-auto",
+      "startedAt": "2026-08-12T05:42:19.838Z",
+      "completedAt": "2026-08-12T05:42:55.886Z",
       "triggerType": "scheduled",
       "sourcesChecked": 14,
-      "updatesCreated": 6,
+      "updatesCreated": 3,
       "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-05 for PA-10. Sources checked: 14. LLM verifications: 9. 6 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-08-12 for PA-10. Sources checked: 14. LLM verifications: 11. 6 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-08-12T06:42:36.781Z",
+    "NEXT_REFRESH_AT": "2026-08-19T05:42:55.886Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

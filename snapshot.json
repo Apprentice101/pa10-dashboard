@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-12",
-  "updatedAt": "2026-08-12T05:42:55.886Z",
-  "exportedAt": "2026-08-12T05:49:56.317Z",
+  "dataAsOf": "2026-08-19",
+  "updatedAt": "2026-08-19T05:01:33.054Z",
+  "exportedAt": "2026-08-19T05:10:07.069Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -164,7 +164,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -203,7 +203,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -1006,20 +1006,100 @@
         "relevanceSummary": "The story says Senate Republicans failed to advance a narrowed federal voter-photo-ID bill before recess, so the proposal did not become law. It matters to PA-10 voters because the measure would have changed federal election rules, including the IDs accepted to vote and how provisional ballots would work.",
         "tag": "voter-id",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0ujhddf",
+        "headline": "What to know about the dispute over Pennsylvania's voter registration records",
+        "sourceName": "FOX43",
+        "url": "https://www.fox43.com/article/news/politics/elections/what-to-know-about-the-dispute-over-pennsylvanias-voter-registration-records-dhs-election/521-11afd265-56f5-405a-b316-dbd79eaea2ad",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "This piece explains a statewide dispute over Pennsylvania’s voter-registration records and notes that eligibility rules have not changed, clarifying for PA-10 voters that existing registration verification procedures remain in place despite political controversy.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0biofgw",
+        "headline": "Pennsylvania elections could look very different if Democrats win full control of state government in 2026",
+        "sourceName": "Stacker via KEYT",
+        "url": "https://keyt.com/stacker-government-politics/2026/08/18/pennsylvania-elections-could-look-very-different-if-democrats-win-full-control-of-state-government-in-2026/",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "A syndicated version of the statewide analysis of Pennsylvania election-law proposals, detailing how changes such as true early voting, county drop-box mandates, and electronic pollbooks could alter voter experience and ballot processing for all voters, including those in PA-10.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0ddlxda",
+        "headline": "Pennsylvania elections could look very different if Democrats win full control of state government in 2026",
+        "sourceName": "KEYT / Stacker",
+        "url": "https://keyt.com/news/2026/08/18/pennsylvania-elections-could-look-very-different-if-democrats-win-full-control-of-state-government-in-2026/",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "This article reviews stalled and proposed statewide election legislation in Pennsylvania, including measures for in-person early voting, mandatory mail-ballot drop boxes in every county, electronic pollbooks, and extended pre-canvassing time, highlighting potential rule changes that would directly affect how PA-10 voters cast and how officials count ballots.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0w9zdi7",
+        "headline": "CEIR Resources on Voting Before Election Day",
+        "sourceName": "Center for Election Innovation & Research",
+        "url": "https://electioninnovation.org/research/voting-before-election-day-resources/",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "This resource encourages voters to verify early in-person and mail voting dates, locations, and procedures with official election offices, providing general guidance that PA-10 voters can use to confirm Pennsylvania-specific rules for mail ballots and early voting.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0q184j9",
+        "headline": "Election Officials Are Preparing for Prediction Markets to Sow Chaos in the Midterms",
+        "sourceName": "WIRED",
+        "url": "https://www.wired.com/story/election-officials-are-preparing-for-prediction-markets-to-sow-chaos-in-the-midterms/",
+        "publishedAt": "2026-08-17",
+        "relevanceSummary": "The article describes how election officials, including those in Pennsylvania’s Delaware County, are updating oaths for poll workers to bar financial interests in bets or prediction markets related to elections, illustrating one type of county-level administrative safeguard that may influence similar policies elsewhere in the state, including PA-10.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0qw6994",
+        "headline": "Clearfield County Seeks Poll Workers for Upcoming Fall Election",
+        "sourceName": "Gant News",
+        "url": "https://gantnews.com/2026/08/14/clearfield-county-seeks-poll-workers-for-upcoming-fall-election/",
+        "publishedAt": "2026-08-14",
+        "relevanceSummary": "This article describes poll worker recruitment, training requirements, and basic qualifications for serving at precincts in Clearfield County, illustrating county-level election administration practices in Pennsylvania that are similar to those used across the state and relevant for PA-10 voters interested in working at the polls.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0c15p15",
+        "headline": "County Needs Election Workers For November",
+        "sourceName": "NewtownPANow.com",
+        "url": "https://newtownpanow.com/2026/08/13/county-needs-election-workers-for-november/",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "This Bucks County piece outlines the roles, training, and pay for election workers and explains how registered voters and some 17-year-old students can serve in positions such as Judge of Elections and machine inspector, providing a detailed look at Pennsylvania county-level election administration relevant as a model for PA-10 counties.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0k28whx",
+        "headline": "6 important things to know about voting by mail in Pennsylvania",
+        "sourceName": "Keystone Newsroom",
+        "url": "https://keystonenewsroom.com/news/elections/6-important-things-to-know-about-voting-by-mail-in-pennsylvania/",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "This statewide explainer details how Pennsylvania voters can apply for mail-in ballots, return them by the county deadline, and correctly complete and seal the required inner and outer envelopes so ballots are counted, including rules on drop boxes and surrendering a mail ballot to vote in person—procedures that apply directly to voters in PA-10.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-12-pa10-auto",
-      "startedAt": "2026-08-12T05:42:19.838Z",
-      "completedAt": "2026-08-12T05:42:55.886Z",
+      "id": "run-2026-08-19-pa10-auto",
+      "startedAt": "2026-08-19T05:00:38.442Z",
+      "completedAt": "2026-08-19T05:01:33.054Z",
       "triggerType": "scheduled",
       "sourcesChecked": 14,
-      "updatesCreated": 3,
+      "updatesCreated": 8,
       "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-12 for PA-10. Sources checked: 14. LLM verifications: 11. 6 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-08-19 for PA-10. Sources checked: 14. LLM verifications: 7. 6 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-08-19T05:42:55.886Z",
+    "NEXT_REFRESH_AT": "2026-08-26T05:01:33.054Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-26",
-  "updatedAt": "2026-08-26T05:08:38.941Z",
-  "exportedAt": "2026-08-26T05:17:58.919Z",
+  "dataAsOf": "2026-09-02",
+  "updatedAt": "2026-09-02T09:00:08.983Z",
+  "exportedAt": "2026-09-02T09:11:59.004Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -164,7 +164,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -203,7 +203,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -1166,20 +1166,100 @@
         "relevanceSummary": "This article explains that USPS adopted new standards requiring states to submit voter and ballot‑tracking information through a federal portal before mail‑in or absentee ballots can enter the mailstream. If and when implemented, Pennsylvania—including PA‑10 counties—would have to comply, potentially affecting the timing and tracking of mail‑in ballots for district voters.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0ok52mp",
+        "headline": "PA election 2026: How to request, fill out, return your mail ballot",
+        "sourceName": "WHYY",
+        "url": "https://whyy.org/articles/election-2026-pennsylvania-mail-ballot-how-to/",
+        "publishedAt": "2026-08-31",
+        "relevanceSummary": "Explains Pennsylvania’s 2026 mail‑in ballot procedures, including how PA voters request a mail ballot, required ID (PennDOT ID, driver’s license, or last four of SSN), how to correctly complete and seal inner and outer envelopes, and options for returning ballots via mail, county election offices, or county drop boxes. This directly governs how PA‑10 voters must cast and return mail ballots and avoid common errors that lead to rejection.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0p805oi",
+        "headline": "Judge blocks rule implementing Trump plan to restrict mail-in voting",
+        "sourceName": "Reuters",
+        "url": "https://www.reuters.com/world/judge-blocks-rule-implementing-trump-plan-restrict-mail-in-voting-2026-08-28/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "Reports that a federal judge blocked a rule requiring states to provide USPS with lists of mail ballot recipients and to place unique barcodes on all outbound and return ballot envelopes, a key component of Trump’s effort to restrict mail‑in voting. This informs PA‑10 voters that some proposed federal mail‑ballot constraints are currently on hold, affecting how Pennsylvania counties may need to prepare ballots and interact with USPS.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0v4qllj",
+        "headline": "PA voting groups: Mail-in ballots still an option, despite SCOTUS ruling",
+        "sourceName": "Big News Network",
+        "url": "https://www.bignewsnetwork.com/news/279270215/pa-voting-groups-mail-in-ballots-still-an-option-despite-scotus-ruling",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "Reports that, according to the League of Women Voters of Pennsylvania, nothing has changed in Pennsylvania’s mail‑in voting rules following a recent U.S. Supreme Court decision, and encourages voters to continue using mail ballots, drop boxes, and satellite election offices, while stressing the importance of requesting and returning ballots early. This reassures PA‑10 voters that existing mail‑in ballot procedures remain in effect and highlights practical guidance on using drop boxes and county offices.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0mw45hv",
+        "headline": "State Launches New Voter Registration Dashboard",
+        "sourceName": "BCTV",
+        "url": "https://www.bctv.org/2026/08/27/state-launches-new-voter-registration-dashboard/",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "Announces that the Pennsylvania Department of State launched a public voter registration dashboard offering weekly registration statistics, historical election data, election directives, and other election administration resources on its website. This is a statewide administrative resource that PA‑10 voters can use to track registration trends, verify information, and access official guidance on election procedures.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0mxkfkl",
+        "headline": "6 Questions: What's Going On With the New Mail Ballot Rules?",
+        "sourceName": "National Conference of State Legislatures (NCSL)",
+        "url": "https://www.ncsl.org/state-legislatures-news/details/6-questions-whats-going-on-with-the-new-mail-ballot-rules",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "Provides an explainer on the new federal mail ballot rules, noting that the mail ballot envelope rule remains in effect pending ongoing litigation and could change as courts rule. For PA‑10 voters, this offers context on why state and local election officials are closely watching federal requirements that could affect ballot envelope design, barcoding, and timing, even though Pennsylvania’s substantive mail‑in voting options remain available.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-07i9w8p",
+        "headline": "US Postal Service says new mail ballot rules tied to Trump order are in effect",
+        "sourceName": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/aug/27/us-postal-service-mail-ballot-rules-trump-order",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "Explains that the U.S. Postal Service has implemented new mail ballot requirements stemming from a Trump executive order, including restrictions on delivering ballots to voters flagged as ineligible by federal records. While these are federal rules, they affect how ballots are handled nationwide, so PA‑10 voters using mail‑in ballots should be aware of potential timing and eligibility checks impacting delivery.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0ly2mhn",
+        "headline": "Supreme Court Lets Trump’s Mail Voting Limits Stand for November 2026",
+        "sourceName": "LegalTech Digest",
+        "url": "https://legaltechdigest.com/news/supreme-court-lets-trump-s-mail-voting-limits-stand-for-november-2026",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "Details the U.S. Supreme Court’s decision to leave in place federal mail‑voting limits for the 2026 general election while noting that Pennsylvania Governor Josh Shapiro has committed to keeping the state’s mail voting procedures unchanged for this cycle. This alerts PA‑10 voters to the national legal backdrop around mail ballots while affirming that Pennsylvania’s current mail‑in rules and processes remain in force for them.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0il0cn6",
+        "headline": "Shapiro, Pa. officials continue to fight Trump mail-in ballot rules",
+        "sourceName": "WPSU",
+        "url": "https://radio.wpsu.org/2026-08-27/shapiro-pa-officials-continue-to-fight-trump-mail-in-ballot-rules",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "Covers Pennsylvania Governor Josh Shapiro and state officials opposing new federal mail‑in ballot rules tied to Trump’s policies, while Shapiro emphasizes that nothing about voting by mail has changed in Pennsylvania and that voters can still cast secure mail ballots. PA‑10 voters gain clarity that, despite federal disputes, Pennsylvania’s mail‑in ballot procedures and voter options remain stable for now.",
+        "tag": "legal",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-26-pa10-auto",
-      "startedAt": "2026-08-26T05:07:43.431Z",
-      "completedAt": "2026-08-26T05:08:38.941Z",
+      "id": "run-2026-09-02-pa10-auto",
+      "startedAt": "2026-09-02T08:58:58.605Z",
+      "completedAt": "2026-09-02T09:00:08.983Z",
       "triggerType": "scheduled",
       "sourcesChecked": 14,
       "updatesCreated": 8,
-      "conflictsCreated": 0,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-26 for PA-10. Sources checked: 14. LLM verifications: 7. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-02 for PA-10. Sources checked: 14. LLM verifications: 7. 6 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-09-02T05:08:38.941Z",
+    "NEXT_REFRESH_AT": "2026-09-09T09:00:08.983Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

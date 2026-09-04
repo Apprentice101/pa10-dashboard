@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-09-02",
   "updatedAt": "2026-09-02T09:00:08.983Z",
-  "exportedAt": "2026-09-02T09:11:59.004Z",
+  "exportedAt": "2026-09-04T01:12:33.307Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -224,7 +224,7 @@
         "short": "Ballotpedia PA-10",
         "url": "https://ballotpedia.org/Pennsylvania's_10th_Congressional_District",
         "publisher": "Ballotpedia",
-        "sourceType": "third-party",
+        "sourceType": "secondary",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
         "lastVerified": "2026-07-08",
@@ -235,138 +235,135 @@
       {
         "id": "ev-primary-reg-deadline",
         "milestone": "Voter registration deadline",
-        "type": "registration",
         "electionType": "primary",
         "date": "2026-05-04",
         "significance": "Last day to register to vote in the PA May 19 primary.",
-        "authority": "PA Department of State / County Election Offices",
+        "governingAuthority": "PA Department of State / County Election Offices",
         "sourceIds": [
           "src-pa-upcoming",
           "src-pa-register"
         ],
         "confidence": "high",
-        "status": "past"
+        "status": "confirmed",
+        "lastVerified": "2026-09-03"
       },
       {
         "id": "ev-primary-mail-request",
         "milestone": "Mail-in / absentee ballot request deadline",
-        "type": "mail-request",
         "electionType": "primary",
         "date": "2026-05-12",
         "significance": "Applications must reach the county election office by 5:00 PM.",
-        "authority": "PA Department of State",
+        "governingAuthority": "PA Department of State",
         "sourceIds": [
           "src-pa-upcoming",
           "src-pa-mail-absentee"
         ],
         "confidence": "high",
-        "status": "past"
+        "status": "confirmed",
+        "lastVerified": "2026-09-03"
       },
       {
         "id": "ev-primary-receipt",
         "milestone": "Primary ballot receipt deadline",
-        "type": "mail-receipt",
         "electionType": "primary",
         "date": "2026-05-19",
         "significance": "Mail-in / absentee ballots must be received by the county election office by 8 PM. Postmarks do not count.",
-        "authority": "PA Department of State",
+        "governingAuthority": "PA Department of State",
         "sourceIds": [
           "src-pa-upcoming",
           "src-pa-mail-absentee"
         ],
         "confidence": "high",
-        "status": "past"
+        "status": "confirmed",
+        "lastVerified": "2026-09-03"
       },
       {
         "id": "ev-primary-day",
         "milestone": "Primary election day",
-        "type": "election-day",
         "electionType": "primary",
         "date": "2026-05-19",
-        "significance": "Pennsylvania statewide primary. Polls open 7:00 AM – 8:00 PM.",
-        "authority": "PA Department of State",
+        "significance": "Pennsylvania statewide primary. Polls open 7:00 AM – 8:00 PM. Stelson (D) defeated Justin Douglas in Dem primary. Perry (R) advanced. Stelson vs. Perry rematch set for Nov 3.",
+        "governingAuthority": "PA Department of State",
         "sourceIds": [
           "src-pa-upcoming"
         ],
         "confidence": "high",
-        "status": "past",
-        "notes": "Stelson (D) defeated Justin Douglas in Dem primary. Perry (R) advanced. Stelson vs. Perry rematch set for Nov 3."
+        "status": "confirmed",
+        "lastVerified": "2026-09-03"
       },
       {
         "id": "ev-general-reg-deadline",
         "milestone": "Voter registration deadline",
-        "type": "registration",
         "electionType": "general",
         "date": "2026-10-19",
         "significance": "Last day to register to vote before the November 3 general election.",
-        "authority": "PA Department of State / County Election Offices",
+        "governingAuthority": "PA Department of State / County Election Offices",
         "sourceIds": [
           "src-pa-upcoming",
           "src-pa-register"
         ],
         "confidence": "high",
-        "status": "upcoming"
+        "status": "confirmed",
+        "lastVerified": "2026-09-03"
       },
       {
         "id": "ev-general-mail-request",
         "milestone": "Mail-in / absentee ballot request deadline",
-        "type": "mail-request",
         "electionType": "general",
         "date": "2026-10-27",
         "significance": "Applications must reach the county election office by 5:00 PM (general election).",
-        "authority": "PA Department of State",
+        "governingAuthority": "PA Department of State",
         "sourceIds": [
           "src-pa-upcoming",
           "src-pa-mail-absentee"
         ],
         "confidence": "high",
-        "status": "upcoming"
+        "status": "confirmed",
+        "lastVerified": "2026-09-03"
       },
       {
         "id": "ev-general-receipt",
         "milestone": "Ballot receipt deadline",
-        "type": "mail-receipt",
         "electionType": "general",
         "date": "2026-11-03",
         "significance": "Mail-in / absentee ballots must be received by the county election office by 8 PM. Postmarks do not count.",
-        "authority": "PA Department of State",
+        "governingAuthority": "PA Department of State",
         "sourceIds": [
           "src-pa-upcoming",
           "src-pa-mail-absentee"
         ],
         "confidence": "high",
-        "status": "upcoming"
+        "status": "confirmed",
+        "lastVerified": "2026-09-03"
       },
       {
         "id": "ev-general-day",
         "milestone": "General election day",
-        "type": "election-day",
         "electionType": "general",
         "date": "2026-11-03",
-        "significance": "U.S. midterm general election. Polls open 7:00 AM – 8:00 PM.",
-        "authority": "PA Department of State",
+        "significance": "U.S. midterm general election. Polls open 7:00 AM – 8:00 PM. Scott Perry (R) vs. Janelle Stelson (D) — rematch of 2024 race. Rated Toss-up (Cook, Sabato).",
+        "governingAuthority": "PA Department of State",
         "sourceIds": [
           "src-pa-upcoming"
         ],
         "confidence": "high",
-        "status": "upcoming",
-        "notes": "Scott Perry (R) vs. Janelle Stelson (D) — rematch of 2024 race. Rated Toss-up (Cook, Sabato)."
+        "status": "confirmed",
+        "lastVerified": "2026-09-03"
       },
       {
         "id": "ev-primary-dating-watch",
         "milestone": "Mail ballot date rule — litigation ongoing",
-        "type": "watch",
         "electionType": "general",
         "date": "2026-11-03",
-        "significance": "3rd Circuit ruled envelope dating unconstitutional (Aug 2025). SCOTUS petition responses due June 1, 2026. Outcome affects all PA mail voters.",
-        "authority": "3rd U.S. Circuit Court / SCOTUS (pending)",
+        "significance": "3rd Circuit ruled envelope dating unconstitutional (Aug 2025). SCOTUS petition responses due June 1, 2026. Outcome affects all PA mail voters. Currently counties cannot reject undated ballots. Monitor for SCOTUS cert grant which could reverse before Nov 3.",
+        "governingAuthority": "3rd U.S. Circuit Court / SCOTUS (pending)",
         "sourceIds": [
           "src-spotlight-pa",
           "src-pa-mail-absentee"
         ],
         "confidence": "low",
-        "status": "watch",
-        "notes": "Currently counties cannot reject undated ballots. Monitor for SCOTUS cert grant which could reverse before Nov 3."
+        "status": "unconfirmed",
+        "lastVerified": "2026-09-03"
       }
     ],
     "RULES": [
@@ -697,7 +694,7 @@
         "detectedAt": "2026-05-26T08:00:00Z",
         "severity": "low",
         "reviewState": "new",
-        "visibility": "internal"
+        "visibility": "internal_only"
       },
       {
         "id": "upd-005",
@@ -733,17 +730,16 @@
     "CONFLICTS": [
       {
         "id": "conf-001",
-        "title": "Mail ballot envelope dating — conflicting court rulings",
-        "description": "3rd Circuit: date requirement unconstitutional (Aug 2025). PA Commonwealth Court: same (2024). PA Supreme Court: counties must notify voters of envelope errors (Coalfield Justice, 2024). SCOTUS petition responses due June 1, 2026. Status unresolved for Nov 3, 2026 general election.",
-        "conflictType": "rule-conflict",
-        "sourceIds": [
-          "src-spotlight-pa",
-          "src-pa-mail-absentee"
-        ],
-        "detectedAt": "2026-05-26T08:00:00Z",
+        "factInQuestion": "Whether the Pennsylvania mail-ballot envelope-dating requirement will be enforced for the Nov. 3, 2026 general election.",
+        "sourceAId": "src-spotlight-pa",
+        "sourceAClaim": "3rd Circuit (Aug. 2025) and PA Commonwealth Court (2024) ruled the envelope date requirement unconstitutional; PA Supreme Court (Coalfield Justice, 2024) held counties must notify voters of envelope errors. SCOTUS petition responses were due June 1, 2026.",
+        "sourceBId": "src-pa-mail-absentee",
+        "sourceBClaim": "PA Department of State mail-ballot guidance still reflects the date-on-envelope requirement pending final resolution of the SCOTUS petition.",
+        "whyItMatters": "Whether PA-10 voters must date the outer return envelope on a mail ballot is directly determinative of whether otherwise-valid ballots count in the Nov. 3, 2026 general.",
+        "suggestedReviewAction": "Monitor SCOTUS docket for cert grant/decision; update this conflict when the enforceability status is settled for Nov. 3, 2026.",
         "severity": "high",
-        "reviewState": "open",
-        "visibility": "public"
+        "status": "unresolved",
+        "createdAt": "2026-05-26T08:00:00Z"
       }
     ],
     "NEWS": [

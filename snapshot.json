@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-02",
-  "updatedAt": "2026-09-02T09:00:08.983Z",
-  "exportedAt": "2026-09-04T01:12:33.307Z",
+  "dataAsOf": "2026-09-09",
+  "updatedAt": "2026-09-09T09:12:33.949Z",
+  "exportedAt": "2026-09-09T09:22:14.709Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -177,7 +177,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-09-09",
         "confidence": "high",
         "notes": "Director: Bethany Salzarulo. Phone: (717) 240-6385. 1601 Ritner Highway, Suite 201, Carlisle, PA 17013."
       },
@@ -203,7 +203,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -1242,20 +1242,100 @@
         "relevanceSummary": "Covers Pennsylvania Governor Josh Shapiro and state officials opposing new federal mail‑in ballot rules tied to Trump’s policies, while Shapiro emphasizes that nothing about voting by mail has changed in Pennsylvania and that voters can still cast secure mail ballots. PA‑10 voters gain clarity that, despite federal disputes, Pennsylvania’s mail‑in ballot procedures and voter options remain stable for now.",
         "tag": "legal",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0cq9bcv",
+        "headline": "Allegheny County Officials: Mail-In Balloting To Proceed As Planned",
+        "sourceName": "Patch (Pittsburgh)",
+        "url": "https://patch.com/pennsylvania/pittsburgh/allegheny-county-officials-mail-balloting-proceed-planned",
+        "publishedAt": "2026-09-08",
+        "relevanceSummary": "County officials explain that mail-in balloting will continue as planned, outlining options for returning completed ballots at satellite offices, designated ballot return locations, and the county office building on Election Day, along with polling place hours—information that illustrates how Pennsylvania counties are administering mail-in voting and ballot drop-off, which is procedurally relevant for PA-10 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0afqt69",
+        "headline": "November 3 election: What Pennsylvania voters need to know about voting by mail",
+        "sourceName": "WGAL",
+        "url": "https://www.wgal.com/article/pennsylvania-mail-in-ballot-deadlines-set-november-election/73634392",
+        "publishedAt": "2026-09-07",
+        "relevanceSummary": "This piece explains Pennsylvania’s mail‑in voting rules for the November 3 election, emphasizing that completed mail ballots must be received by county election offices by 8 p.m. on Election Day, reinforcing the statewide receipt‑by‑deadline requirement for mail ballots that applies to PA-10 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-01vypfr",
+        "headline": "Key Pennsylvania races to watch in the midterm elections this ...",
+        "sourceName": "The Philadelphia Inquirer",
+        "url": "https://www.inquirer.com/politics/pennsylvania/pennsylvania-midterm-elections-2026-key-races-20260904.html",
+        "publishedAt": "2026-09-05",
+        "relevanceSummary": "Alongside race coverage, this article provides statewide voter information, including Pennsylvania’s voter registration deadline, eligibility requirements, and that Pennsylvanians may vote by mail without an excuse, with applications due by 5 p.m. on October 27 and completed ballots required to be received by 8 p.m. on Election Day—procedural details directly governing how PA-10 voters can register and vote.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0lidqrp",
+        "headline": "Pre-Processing Timelines, Update Fall 2026 — Pennsylvania",
+        "sourceName": "Center for Election Innovation & Research",
+        "url": "https://electioninnovation.org/research/pre-processing-timelines/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "The Pennsylvania section of this research update explains that envelope processing and pre‑canvassing of mail ballots may begin no earlier than 7:00 a.m. on Election Day, with ballot scanning starting then and canvassing of remaining ballots beginning after polls close, clarifying the statewide timeline for when PA-10 voters’ mail ballots are processed and counted.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0qzfpdk",
+        "headline": "Luzerne County Council members want more ballot drop boxes, worry about postal service",
+        "sourceName": "The Citizens' Voice",
+        "url": "https://www.citizensvoice.com/2026/09/04/luzerne-county-council-members-want-more-ballot-drop-boxes-worry-about-postal-service/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "Luzerne County council members push for additional ballot drop boxes and express concern about mail delays, while restating statewide mail ballot application and receipt deadlines for the November 3 election, offering PA-10 voters insight into how Pennsylvania counties are expanding secure ballot return options under common statewide timelines.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0xw4etg",
+        "headline": "Allegheny County proceeds with election plans amid federal mail-in ballot fight",
+        "sourceName": "TribLIVE Community",
+        "url": "https://community.triblive.com/news/4132142",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "Allegheny County officials report guidance from the Pennsylvania Department of State that existing voting methods remain in place despite a federal dispute over mail-in ballots, affirming that voters may continue to vote by mail, use satellite election offices, authorized ballot return locations, and in‑person voting as in recent elections—clarifying for PA-10 voters that Pennsylvania’s established election procedures remain valid statewide.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-05ish29",
+        "headline": "Board of Elections Approves Plans for Upcoming November Election",
+        "sourceName": "Allegheny County (official site)",
+        "url": "https://www.alleghenycounty.us/News-Articles/Allegheny-County-Press-Releases/August-2026-PR/9-4-2026-Allegheny-County-Board-of-Elections-Approves-Plans-for-Upcoming-November-General-Election",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "Allegheny County’s Board of Elections details satellite election offices, ballot return sites, and hours during which voters can register, apply for, receive, vote, and return mail-in and absentee ballots, providing a concrete example of county-level mail ballot logistics and drop-box style return locations under Pennsylvania law that are relevant to PA-10 voters as similar procedures operate statewide.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0gt3q7y",
+        "headline": "Patch AM: Where can Easton voters get extra help before November's election?",
+        "sourceName": "Patch (Easton)",
+        "url": "https://patch.com/pennsylvania/easton/patch-am-where-can-easton-voters-get-extra-help-november-s-e-nodx-20260903",
+        "publishedAt": "2026-09-03",
+        "relevanceSummary": "This roundup notes that Northampton County’s election commission approved three more ballot drop boxes and at least four pop-up voter service events ahead of the November election, illustrating county-level decisions to expand ballot return infrastructure and in‑person voter assistance that reflect practices relevant to Pennsylvania voters statewide, including those in PA-10.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-02-pa10-auto",
-      "startedAt": "2026-09-02T08:58:58.605Z",
-      "completedAt": "2026-09-02T09:00:08.983Z",
+      "id": "run-2026-09-09-pa10-auto",
+      "startedAt": "2026-09-09T09:11:32.988Z",
+      "completedAt": "2026-09-09T09:12:33.949Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
+      "sourcesChecked": 15,
       "updatesCreated": 8,
-      "conflictsCreated": 1,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-02 for PA-10. Sources checked: 14. LLM verifications: 7. 6 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-09-09 for PA-10. Sources checked: 15. LLM verifications: 8. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-09T09:00:08.983Z",
+    "NEXT_REFRESH_AT": "2026-09-16T09:12:33.949Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-09-09",
   "updatedAt": "2026-09-09T09:12:33.949Z",
-  "exportedAt": "2026-09-09T09:22:14.709Z",
+  "exportedAt": "2026-09-09T20:51:52.871Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,31 @@
         "publisher": "Commonwealth of Pennsylvania — Department of State",
         "sourceType": "official-state",
         "hierarchyLevel": 1,
-        "dateAccessed": "2026-05-26",
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-09-09",
+        "confidence": "high"
+      },
+      "src-pa-dos-voter-id-guidance-2025": {
+        "id": "src-pa-dos-voter-id-guidance-2025",
+        "name": "PA Department of State — Voter Identification Requirements for Voting (Sept. 22, 2025 Guidance)",
+        "short": "PA DOS Voter ID Guidance 2025",
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/resources/voting-and-elections/directives-and-guidance/2025/voter%20id%20requirements%20for%20voting_092225.pdf",
+        "publisher": "Commonwealth of Pennsylvania — Department of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-09-09",
+        "lastVerified": "2026-09-09",
+        "confidence": "high"
+      },
+      "src-pa-dos-mail-ballot-id": {
+        "id": "src-pa-dos-mail-ballot-id",
+        "name": "PA Department of State — Identification for Mail Voting (PDF)",
+        "short": "PA DOS Mail Voting ID",
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/vote/resources/documents-and-forms/DOS_Identification_for_mail_voting.pdf",
+        "publisher": "Commonwealth of Pennsylvania — Department of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-09-09",
         "lastVerified": "2026-09-09",
         "confidence": "high"
       },
@@ -438,19 +462,38 @@
       },
       {
         "id": "rule-id",
-        "topic": "Voter ID / first-time voter ID",
-        "currentRule": "First-time voters at a polling place, and voters voting at a new polling place for the first time, must show acceptable ID. Returning voters at their established polling place generally do not need ID.",
-        "status": "watch",
-        "whyItMatters": "Affects in-person eligibility, especially for newly registered or recently moved voters in Dauphin, Cumberland, and York counties.",
+        "topic": "Voter ID / first-time voter ID (photo NOT required; non-photo IDs also accepted)",
+        "currentRule": "In Pennsylvania, voters do NOT need to show photo identification at the polling place. Poll workers should not ask every voter for photo identification. ID is required ONLY the first time a voter casts a ballot in an election district — either a first-time voter or a voter voting at a new polling place for the first time. Those voters may show either photo OR non-photo ID. Photo IDs accepted include: PA driver's license or PennDOT ID card, ID issued by any Commonwealth agency, ID issued by the U.S. Government, U.S. passport, U.S. Armed Forces ID, student ID (including electronic/digital student ID), or employee ID. Non-photo IDs with the voter's name and address accepted include: voter registration card issued by the county voter registration office, non-photo ID issued by the U.S. Government, non-photo ID issued by any agency of the Commonwealth or U.S. Government, firearm permit, current utility bill, current bank statement, paycheck, or government check. Returning voters at their established polling place generally do not need to show ID.",
+        "status": "active",
+        "whyItMatters": "Affects in-person eligibility for first-time voters or those voting at a new polling place for the first time in Dauphin, Cumberland, and York. Photo ID is not required; a wide range of non-photo IDs bearing name and address are also acceptable, and framing ID as photo-only can discourage eligible voters.",
         "governingLevel": "statewide",
         "sourceIds": [
+          "src-pa-dos-voter-id-guidance-2025",
           "src-pa-upcoming",
           "src-pa-title25"
         ],
-        "confidence": "medium",
-        "lastVerified": "2026-05-26",
-        "needsReview": true,
-        "detail": "Confirm exact acceptable-ID list and first-time-voter rule against PA Title 25 and PA Department of State guidance before public release."
+        "confidence": "high",
+        "lastVerified": "2026-09-09",
+        "needsReview": false,
+        "detail": "Per PA Department of State 'Voter Identification Requirements for Voting' guidance (Sept. 22, 2025) and 25 P.S. § 3050(a). The photo-ID law passed in 2012 (Act 18 of 2012) was struck down by Commonwealth Court in 2014 (Applewhite v. Commonwealth) and the Commonwealth did not appeal; the first-time-voter ID requirement in HAVA and 25 P.S. § 3050(a) remains in effect for the November 3, 2026 election."
+      },
+      {
+        "id": "rule-mail-ballot-id",
+        "topic": "Mail-in / absentee ballot APPLICATION identification requirements",
+        "currentRule": "When applying for a mail-in or absentee ballot, PA voters must provide proof of identification following a cascade: (1) If the voter has a valid, current Pennsylvania driver's license or PennDOT ID card, the voter must provide the license/ID number. (2) If the voter does NOT have a PA driver's license or PennDOT ID card, the voter must provide the last 4 digits of their Social Security number. (3) Only if the voter has neither may the voter provide a photocopy of an approved photo ID with a current expiration date. Approved photocopy IDs are limited to: U.S. passport, U.S. military ID (active duty and retired military ID may have an indefinite expiration; military dependents' ID must be current), federal / Pennsylvania / PA-county / PA-municipal government employee photo ID, photo ID from an accredited PA public or private higher-education institution, or photo ID from a PA care facility (including long-term-care, assisted-living, and personal-care homes). Voters covered by UOCAVA (uniformed and overseas) or the Voting Accessibility for the Elderly and Handicapped Act (VAEH) are exempt from these ID requirements. If a voter forgets ID with the application, the county still sends a ballot but the voter has SIX (6) CALENDAR DAYS after the election to provide proof of identification.",
+        "status": "active",
+        "whyItMatters": "Mail-in and absentee ballot APPLICATIONS require ID at the application stage, not just at the ballot-return stage. Voters who lack a PA driver's license or PennDOT ID commonly overlook the SSN4 option and mistakenly send a photocopy. Voters who forget ID entirely still receive a ballot and have 6 calendar days after the election to cure the deficiency.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-pa-dos-voter-id-guidance-2025",
+          "src-pa-dos-mail-ballot-id",
+          "src-pa-mail-absentee",
+          "src-pa-title25"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-09-09",
+        "needsReview": false,
+        "detail": "Per PA Department of State 'Voter Identification Requirements for Voting' guidance (Sept. 22, 2025), 25 Pa.C.S. § 3146.2b(b) (absentee) and § 3150.12b(b) (mail-in), and Act 77 of 2019. The 6-calendar-day post-election ID cure window is set by DOS guidance following the 2020 litigation over Boockvar guidance; voters who fail to cure by that deadline have their ballots rejected."
       },
       {
         "id": "rule-tracking",
@@ -725,6 +768,22 @@
         "severity": "medium",
         "reviewState": "new",
         "visibility": "public"
+      },
+      {
+        "id": "upd-007",
+        "title": "Voter ID rules enumerated — photo NOT required; new mail-ballot ID rule added",
+        "fieldChanged": "rule-id + new rule-mail-ballot-id",
+        "oldValue": "rule-id said only that first-time voters at a polling place must show acceptable ID; the acceptable-ID list was not enumerated. There was no separate rule for mail-ballot application ID.",
+        "newValue": "rule-id now enumerates the full PA DOS Sept-2025 acceptable-ID list, including both photo IDs (PA DL/PennDOT ID, Commonwealth agency ID, U.S. Government ID, U.S. passport, U.S. Armed Forces ID, student ID, employee ID) and non-photo IDs with name and address (voter registration card, non-photo U.S. Government or Commonwealth ID, firearm permit, current utility bill, current bank statement, paycheck, government check). New rule-mail-ballot-id explains the DL / SSN4 / copy-of-photo-ID cascade at the mail-ballot APPLICATION stage, the UOCAVA/VAEH exemption, and the 6-calendar-day post-election ID cure window. Source: https://www.pa.gov/content/dam/copapwp-pagov/en/dos/resources/voting-and-elections/directives-and-guidance/2025/voter%20id%20requirements%20for%20voting_092225.pdf",
+        "sourceIds": [
+          "src-pa-dos-voter-id-guidance-2025",
+          "src-pa-dos-mail-ballot-id"
+        ],
+        "detectedAt": "2026-09-09T20:30:00Z",
+        "severity": "high",
+        "reviewState": "reviewed",
+        "visibility": "public",
+        "changeKind": "clarification"
       }
     ],
     "CONFLICTS": [

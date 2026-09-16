@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-09",
-  "updatedAt": "2026-09-09T09:12:33.949Z",
-  "exportedAt": "2026-09-09T20:51:52.871Z",
+  "dataAsOf": "2026-09-16",
+  "updatedAt": "2026-09-16T09:44:02.990Z",
+  "exportedAt": "2026-09-16T09:53:46.198Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -128,7 +128,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -188,7 +188,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-16",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -227,7 +227,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -1381,20 +1381,90 @@
         "relevanceSummary": "This roundup notes that Northampton County’s election commission approved three more ballot drop boxes and at least four pop-up voter service events ahead of the November election, illustrating county-level decisions to expand ballot return infrastructure and in‑person voter assistance that reflect practices relevant to Pennsylvania voters statewide, including those in PA-10.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0gwi337",
+        "headline": "Supreme Court decision keeps mail-in voting as Pennsylvania officials push voter registration",
+        "sourceName": "6abc",
+        "url": "https://6abc.com/post/supreme-court-decision-keeps-mail-voting-pennsylvania-officials-push-voter-registration/19836429/",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "This article is relevant to PA-10 voters because it says Pennsylvania voters can still request mail ballots through Oct. 27 and that election offices also serve as registration sites. The piece ties a statewide court-related development to practical voting steps for Pennsylvania voters.",
+        "tag": "legal",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0q05pw9",
+        "headline": "It's National Voter Registration Day. How do I register to vote in Pennsylvania?",
+        "sourceName": "Delaware Online",
+        "url": "https://www.delawareonline.com/story/news/2026/09/15/how-to-register-to-vote-pennsylvania-national-voter-registration-day-what-documents-do-i-need/91772813007/",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "This is directly relevant to PA-10 voters because it explains Pennsylvania’s voter-registration options, including online, mail, in-person at county election offices, and through PennDOT and other state agencies. The article matters for the district because statewide registration rules apply to all Pennsylvania voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0plmhvo",
+        "headline": "Voter education push begins as mail-in ballots roll out",
+        "sourceName": "Post-Gazette",
+        "url": "https://www.post-gazette.com/news/state/2026/09/13/voter-education-mail-in-ballots/stories/202609120014",
+        "publishedAt": "2026-09-13",
+        "relevanceSummary": "This statewide piece is relevant because it restates the key Pennsylvania general-election deadlines for voter registration and mail-ballot applications, information that applies to PA-10 voters. It is useful as a procedural reminder for voters tracking when they must act.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0mxy4ar",
+        "headline": "Pennsylvania Perspective for Thursday, September 10, 2026",
+        "sourceName": "CoPublic Strategies",
+        "url": "https://copublicstrategies.com/pennsylvania-perspective-for-thursday-september-10-2026/",
+        "publishedAt": "2026-09-10",
+        "relevanceSummary": "This statewide policy update is relevant because it reports that Pennsylvania Secretary of State Al Schmidt said the commonwealth’s mail-in voting procedures remain intact despite a federal legal fight over postal restrictions. That affects PA-10 voters because county election offices will continue operating under existing Pennsylvania procedures.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0knvqmt",
+        "headline": "Pa. election chief: ‘Nothing has changed’ for voters as election nears",
+        "sourceName": "WHYY",
+        "url": "https://whyy.org/articles/2026-election-pennsylvania-mail-ballots/",
+        "publishedAt": "2026-09-09",
+        "relevanceSummary": "This statewide election-administration story matters to PA-10 voters because the Pennsylvania election chief said existing voting methods remain in place, including mail voting, hand delivery to county offices, and county drop boxes where provided. It also reinforces the registration and mail-ballot deadlines that district voters need to know.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0vuintj",
+        "headline": "Temporary Election Office Being Added In Levittown Area",
+        "sourceName": "LevittownNow.com",
+        "url": "https://levittownnow.com/2026/09/09/temporary-election-office-being-added-in-levittown-area/",
+        "publishedAt": "2026-09-09",
+        "relevanceSummary": "This Bucks County report matters to PA-10 voters because Bucks County is in the district and the county board approved four temporary satellite offices for on-demand mail-in ballots, voter registration requests, and secure ballot drop boxes. The article also says voters will be able to apply in person for a mail ballot and receive it the same visit at expanded locations.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0ovumih",
+        "headline": "Allegheny County proceeds with election plans amid federal mail-in ballot fight",
+        "sourceName": "TribLIVE",
+        "url": "https://triblive.com/local/regional/allegheny-county-proceeds-with-election-plans-amid-federal-mail-in-ballot-fight/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "Although this is an Allegheny County story, it is still relevant to PA-10 voters as a Pennsylvania county-election administration report showing how counties are proceeding under current guidance. It says voters can continue using mail voting, satellite election offices, authorized return locations, and in-person voting as before, which reflects statewide procedures that affect all Pennsylvania voters.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-09-pa10-auto",
-      "startedAt": "2026-09-09T09:11:32.988Z",
-      "completedAt": "2026-09-09T09:12:33.949Z",
+      "id": "run-2026-09-16-pa10-auto",
+      "startedAt": "2026-09-16T09:42:34.128Z",
+      "completedAt": "2026-09-16T09:44:02.990Z",
       "triggerType": "scheduled",
       "sourcesChecked": 15,
-      "updatesCreated": 8,
-      "conflictsCreated": 0,
+      "updatesCreated": 7,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-09 for PA-10. Sources checked: 15. LLM verifications: 8. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-16 for PA-10. Sources checked: 15. LLM verifications: 8. 7 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-09-16T09:12:33.949Z",
+    "NEXT_REFRESH_AT": "2026-09-23T09:44:02.990Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

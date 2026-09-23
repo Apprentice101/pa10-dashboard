@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-16",
-  "updatedAt": "2026-09-16T09:44:02.990Z",
-  "exportedAt": "2026-09-16T09:53:46.198Z",
+  "dataAsOf": "2026-09-23",
+  "updatedAt": "2026-09-23T09:31:48.932Z",
+  "exportedAt": "2026-09-23T09:40:05.413Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -164,7 +164,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-vote-pa": {
@@ -188,7 +188,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -227,7 +227,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -251,7 +251,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-09-23",
         "confidence": "medium"
       }
     },
@@ -1451,20 +1451,90 @@
         "relevanceSummary": "Although this is an Allegheny County story, it is still relevant to PA-10 voters as a Pennsylvania county-election administration report showing how counties are proceeding under current guidance. It says voters can continue using mail voting, satellite election offices, authorized return locations, and in-person voting as before, which reflects statewide procedures that affect all Pennsylvania voters.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0zfvbka",
+        "headline": "Mail ballots begin arriving ahead of Nov. 3 election",
+        "sourceName": "The Lewistown Sentinel",
+        "url": "https://www.lewistownsentinel.com/news/local-news/2026/09/mail-ballots-begin-arriving-ahead-of-nov-3-election/",
+        "publishedAt": "2026-09-22",
+        "relevanceSummary": "The article reports Pennsylvania’s October 19 voter-registration deadline, October 27 mail-ballot application deadline, and November 3 receipt deadline for voted mail ballots. These statewide deadlines apply to PA-10 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0xpkavl",
+        "headline": "Pennsylvania launches new tool for on-demand mail ballot voting",
+        "sourceName": "Yahoo News",
+        "url": "https://www.yahoo.com/news/politics/articles/pennsylvania-launches-tool-demand-mail-190230133.html",
+        "publishedAt": "2026-09-22",
+        "relevanceSummary": "The new statewide tool supports on-demand mail-ballot voting at county election offices or designated satellite offices. This gives PA-10 voters an additional way to apply for, complete, and return a ballot in person.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0zfwgt6",
+        "headline": "As mail ballots begin to go out, Pa.'s top election official says midterms will be business as usual",
+        "sourceName": "Pennsylvania Capital-Star",
+        "url": "https://penncapital-star.com/election-2026/as-mail-ballots-begin-to-go-out-pa-s-top-election-official-says-midterms-will-be-business-as-usual/",
+        "publishedAt": "2026-09-22",
+        "relevanceSummary": "Pennsylvania’s top election official says voters can request, complete, and return mail ballots at county election offices or designated satellite offices. The statewide procedures apply directly to PA-10 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-01jul4w",
+        "headline": "Key Allegheny County, PA dates for mail-in voting before the November election",
+        "sourceName": "Yahoo News",
+        "url": "https://www.yahoo.com/news/politics/articles/key-allegheny-county-pa-dates-182230293.html",
+        "publishedAt": "2026-09-21",
+        "relevanceSummary": "The article explains Pennsylvania mail-ballot application deadlines and acceptable identification, including a driver’s license, PennDOT ID, Social Security number, passport, military or government employee ID, or qualifying higher-education or care-facility ID. The statewide identification rules are relevant to PA-10 voters, although the county-specific dates concern Allegheny County.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0ffqhhg",
+        "headline": "Secretary of the Commonwealth Reminds Eligible Pennsylvanians of Oct. 19 Registration Deadline",
+        "sourceName": "Pennsylvania Department of State",
+        "url": "https://www.pa.gov/agencies/dos/newsroom/secretary-reminds-eligible-pennsylvanians-of-oct--19-registratio",
+        "publishedAt": "2026-09-21",
+        "relevanceSummary": "The Pennsylvania Secretary of the Commonwealth reminds voters that registration applications are due October 19, mail-ballot applications by 5 p.m. October 27, and voted mail ballots by 8 p.m. November 3. The statewide guidance applies directly to PA-10 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0wouhn2",
+        "headline": "Guidance Concerning Civilian Absentee and Mail-in Ballot Procedures",
+        "sourceName": "Pennsylvania Department of State",
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/resources/voting-and-elections/directives-and-guidance/2026/2026-09-Guidance-Civil-mail-ballot-procedures.pdf",
+        "publishedAt": "2026-09-19",
+        "relevanceSummary": "Pennsylvania election guidance states that voters may apply for absentee or mail ballots by mail, in person at a county or satellite election office, or online, and that applicants must provide proof of identification. These statewide procedures govern PA-10 voters.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0lg17iw",
+        "headline": "Mail-In Ballots Sent Out In Montgomery County",
+        "sourceName": "Patch",
+        "url": "https://patch.com/pennsylvania/norristown/mail-ballots-sent-out-montgomery-county",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "Montgomery County began sending mail ballots and reported that applications must be received by October 27 and completed ballots by 8 p.m. on Election Day; postmarks alone are insufficient. The county-specific logistics are directly relevant to PA-10 voters residing in Montgomery County.",
+        "tag": "deadline",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-16-pa10-auto",
-      "startedAt": "2026-09-16T09:42:34.128Z",
-      "completedAt": "2026-09-16T09:44:02.990Z",
+      "id": "run-2026-09-23-pa10-auto",
+      "startedAt": "2026-09-23T09:30:54.204Z",
+      "completedAt": "2026-09-23T09:31:48.932Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
+      "sourcesChecked": 17,
       "updatesCreated": 7,
-      "conflictsCreated": 1,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-16 for PA-10. Sources checked: 15. LLM verifications: 8. 7 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-09-23 for PA-10. Sources checked: 17. LLM verifications: 7. 8 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-23T09:44:02.990Z",
+    "NEXT_REFRESH_AT": "2026-09-30T09:31:48.932Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

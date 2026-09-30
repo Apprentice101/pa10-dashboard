@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-23",
-  "updatedAt": "2026-09-23T09:31:48.932Z",
-  "exportedAt": "2026-09-23T09:40:05.413Z",
+  "dataAsOf": "2026-09-30",
+  "updatedAt": "2026-09-30T10:31:34.286Z",
+  "exportedAt": "2026-09-30T10:40:12.732Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -164,7 +164,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-vote-pa": {
@@ -188,7 +188,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -227,7 +227,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -1521,20 +1521,100 @@
         "relevanceSummary": "Montgomery County began sending mail ballots and reported that applications must be received by October 27 and completed ballots by 8 p.m. on Election Day; postmarks alone are insufficient. The county-specific logistics are directly relevant to PA-10 voters residing in Montgomery County.",
         "tag": "deadline",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0n5x7yz",
+        "headline": "Everything you need to know about the Nov. 3 general election",
+        "sourceName": "FOX43",
+        "url": "https://www.fox43.com/article/news/politics/elections/2026-election-guide-nov-3-general-midterm-election-how-to-vote-register/521-80f4182c-0e93-4e05-a097-150021a94a82",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "This Pennsylvania-wide voter guide covers the Oct. 27 mail-ballot request deadline, the 8 p.m. Nov. 3 receipt deadline, polling-location lookup, identification requirements, and what voters must do if they switch from mail voting to in-person voting. These procedures apply directly to PA-10 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0rtt76w",
+        "headline": "What Pennsylvania mail voters need to know before November",
+        "sourceName": "Reuters",
+        "url": "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_MT1USDAYNETPA91925535007?channel=rbl744",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "The article reports that Pennsylvania mail-ballot procedures have not changed since the May primary and explains state guidance to segregate undated or incorrectly dated declaration-envelope ballots. Those statewide procedures apply to PA-10 mail voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0ewjxh1",
+        "headline": "As mail ballots begin to go out, Pa.’s top election official says midterms will be business as usual",
+        "sourceName": "Mon Valley Independent",
+        "url": "https://www.monvalleyindependent.com/2026/09/26/as-mail-ballots-begin-to-go-out-pa-s-top-election-official-says-midterms-will-be-business-as-usual/",
+        "publishedAt": "2026-09-26",
+        "relevanceSummary": "Pennsylvania Secretary of State Al Schmidt said mail ballots were beginning to go out and urged voters seeking to vote by mail in person to check the Department of State’s county availability listing. The statewide guidance applies to PA-10 voters and describes county-office and satellite-office procedures.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0hn5h9l",
+        "headline": "Lackawanna County sends out 17,000-plus mail-in ballots, deploys drop boxes",
+        "sourceName": "The Times-Tribune",
+        "url": "https://www.thetimes-tribune.com/2026/09/25/lackawanna-county-sends-out-17000-plus-mail-in-ballots-deploys-drop-boxes/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "Lackawanna County sent more than 17,000 mail ballots and deployed six secure drop boxes, with published locations and access hours. This is county-level Pennsylvania election administration coverage and is indirectly relevant to PA-10 voters through procedural precedent.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0lf4yme",
+        "headline": "25,525 Luzerne County Nov. 3 general election ballots set to be mailed next week, drop box schedule posted",
+        "sourceName": "Times Leader",
+        "url": "https://www.timesleader.com/news/1760684/25525-luzerne-county-nov-3-general-election-ballots-set-to-be-mailed-next-week-drop-box-schedule-posted",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "Luzerne County published mail-ballot instructions, drop-box information, and the rule that voters generally may mail or hand-deliver only their own ballot unless acting as a designated agent for a voter with a disability. The county-specific coverage is relevant as statewide procedural context but does not directly establish PA-10 locations.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0wmd9vs",
+        "headline": "Luzerne County plans to mail ballots next week, start on-demand voting in October",
+        "sourceName": "Citizens' Voice",
+        "url": "https://www.citizensvoice.com/2026/09/25/luzerne-county-plans-to-mail-ballots-next-week-start-on-demand-voting-in-october",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "Luzerne County’s on-demand voting process allows registered voters to request, receive, complete, and submit a mail ballot during one county-office visit. The article also states that completed ballots must be received by 8 p.m. on Nov. 3; the county-level procedure is indirectly relevant to PA-10 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0xp9t4b",
+        "headline": "Philadelphia City Commissioners",
+        "sourceName": "Philadelphia City Commissioners",
+        "url": "https://vote.phila.gov/news/2026/09/24/2026-general-election-unverifiable-identification-undeliverable-and-or-potentially-flawed-ballots/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "Philadelphia election officials explain how voters can address unverifiable identification or potentially flawed ballots, including submitting a photocopy or picture of acceptable identification and contacting election officials. The county-specific process is useful as Pennsylvania precedent, but its direct applicability to PA-10 is indirect.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-012o0b1",
+        "headline": "How to vote in the 2026 midterm elections in Pennsylvania",
+        "sourceName": "Votebeat",
+        "url": "https://www.votebeat.org/pennsylvania/2026/09/25/2026-election-how-to-vote-mail-ballots-voter-id/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "This statewide guide applies directly to PA-10 voters. It identifies Oct. 19 as the voter-registration deadline, Oct. 27 as the mail-ballot application deadline, explains return options, and describes polling hours and identification requirements for first-time voters or voters at a new polling place.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-23-pa10-auto",
-      "startedAt": "2026-09-23T09:30:54.204Z",
-      "completedAt": "2026-09-23T09:31:48.932Z",
+      "id": "run-2026-09-30-pa10-auto",
+      "startedAt": "2026-09-30T10:30:38.683Z",
+      "completedAt": "2026-09-30T10:31:34.286Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 17,
-      "updatesCreated": 7,
-      "conflictsCreated": 0,
+      "sourcesChecked": 16,
+      "updatesCreated": 8,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-23 for PA-10. Sources checked: 17. LLM verifications: 7. 8 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-30 for PA-10. Sources checked: 16. LLM verifications: 7. 7 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-09-30T09:31:48.932Z",
+    "NEXT_REFRESH_AT": "2026-10-07T10:31:34.286Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

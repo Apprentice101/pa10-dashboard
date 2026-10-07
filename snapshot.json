@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-30",
-  "updatedAt": "2026-09-30T10:31:34.286Z",
-  "exportedAt": "2026-09-30T10:40:12.732Z",
+  "dataAsOf": "2026-10-07",
+  "updatedAt": "2026-10-07T11:07:21.920Z",
+  "exportedAt": "2026-10-07T11:15:38.332Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -128,7 +128,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -188,7 +188,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -227,7 +227,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -1601,20 +1601,90 @@
         "relevanceSummary": "This statewide guide applies directly to PA-10 voters. It identifies Oct. 19 as the voter-registration deadline, Oct. 27 as the mail-ballot application deadline, explains return options, and describes polling hours and identification requirements for first-time voters or voters at a new polling place.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-04euq7p",
+        "headline": "Pa. election 2026: Everything you need to know about requesting ...",
+        "sourceName": "KYW Newsradio",
+        "url": "https://www.audacy.com/kywnewsradio/news/local/pa-election-2026-how-to-vote-by-mail",
+        "publishedAt": "2026-10-06",
+        "relevanceSummary": "The statewide voter guide covers mail-ballot application methods and deadlines, including the requirement that county election boards receive applications by 5 p.m. Oct. 27. These procedures apply to PA-10 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-00e9x24",
+        "headline": "A guide to voter ID laws in Pennsylvania",
+        "sourceName": "The Keystone Newsroom",
+        "url": "https://keystonenewsroom.com/local/things-to-do/voter-id-guide-pennsylvania/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "This statewide guide explains that most Pennsylvania voters do not need identification at the polls, while first-time voters and voters at a new polling place do. It lists acceptable photo and non-photo identification documents, directly informing PA-10 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-08358ve",
+        "headline": "PA early voting starts soon. Ballot drop off locations in Allegheny",
+        "sourceName": "Reuters",
+        "url": "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_MT1USDAYNETN92101088007?channel=xsp076",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "The article describes Allegheny County’s mail-ballot drop-off schedule, the Oct. 27 application deadline, and the Nov. 3, 8 p.m. return deadline. It also lists identification options for applying for a mail ballot; the county-specific details are indirect but relevant to statewide procedures and precedent for Pennsylvania voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-00as8dt",
+        "headline": "How to vote by mail in PA for the 2026 general election",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/10/pennsylvania-general-election-2026-mail-ballot-how-to-request-fill-out-return-elections/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "This statewide guide explains how Pennsylvania voters can apply for, complete, and return mail ballots. It identifies Oct. 27 as the application deadline, Oct. 19 as the voter-registration deadline, and lists acceptable identification for mail-ballot applications.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-00ebnxl",
+        "headline": "Pennsylvania Mail Ballot Deadline Nears With 1 Million Approved",
+        "sourceName": "MyChesCo",
+        "url": "https://www.mychesco.com/a/news/pennsylvania/pennsylvania-mail-ballot-deadline-nears-with-1-million-approved/",
+        "publishedAt": "2026-10-03",
+        "relevanceSummary": "The article explains Pennsylvania’s Oct. 27 mail-ballot application deadline and Nov. 3, 8 p.m. return deadline, along with envelope-sealing, signing, and dating requirements. It also describes how voters who choose to vote in person can surrender their mail-ballot materials or use a provisional ballot.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0r81142",
+        "headline": "How to register to vote, find a polling place in Pennsylvania, New Jersey and Delaware before Election Day",
+        "sourceName": "CBS News Philadelphia",
+        "url": "https://www.cbsnews.com/philadelphia/news/polling-place-pennsylvania-new-jersey-delaware/",
+        "publishedAt": "2026-10-03",
+        "relevanceSummary": "This regional voter-information article explains Pennsylvania registration and polling-place resources, the Oct. 27 mail-ballot application deadline, and the requirement that completed ballots reach the county election office by 8 p.m. on Election Day.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0gj8n6x",
+        "headline": "Deadline approaching to request Pa. mail-in ballot",
+        "sourceName": "Mon Valley Independent",
+        "url": "https://www.monvalleyindependent.com/2026/10/01/deadline-approaching-to-request-pa-mail-in-ballot/",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "The article reports Secretary of the Commonwealth Al Schmidt’s reminder that mail-ballot applications must reach county election boards by 5 p.m. Oct. 27 and completed ballots by 8 p.m. on Election Day. It also explains available return methods, including county drop boxes where available.",
+        "tag": "deadline",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-30-pa10-auto",
-      "startedAt": "2026-09-30T10:30:38.683Z",
-      "completedAt": "2026-09-30T10:31:34.286Z",
+      "id": "run-2026-10-07-pa10-auto",
+      "startedAt": "2026-10-07T11:06:37.026Z",
+      "completedAt": "2026-10-07T11:07:21.920Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 16,
-      "updatesCreated": 8,
+      "sourcesChecked": 15,
+      "updatesCreated": 7,
       "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-30 for PA-10. Sources checked: 16. LLM verifications: 7. 7 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-10-07 for PA-10. Sources checked: 15. LLM verifications: 9. 7 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-10-07T10:31:34.286Z",
+    "NEXT_REFRESH_AT": "2026-10-14T11:07:21.920Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

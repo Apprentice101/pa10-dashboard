@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-07",
-  "updatedAt": "2026-10-07T11:07:21.920Z",
-  "exportedAt": "2026-10-07T11:15:38.332Z",
+  "dataAsOf": "2026-10-14",
+  "updatedAt": "2026-10-14T09:27:24.126Z",
+  "exportedAt": "2026-10-14T09:35:04.420Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -128,7 +128,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -188,7 +188,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -227,7 +227,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -1671,20 +1671,100 @@
         "relevanceSummary": "The article reports Secretary of the Commonwealth Al Schmidt’s reminder that mail-ballot applications must reach county election boards by 5 p.m. Oct. 27 and completed ballots by 8 p.m. on Election Day. It also explains available return methods, including county drop boxes where available.",
         "tag": "deadline",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0nvcl05",
+        "headline": "Juniata County is ready for Election Day ballots",
+        "sourceName": "Lewistown Sentinel",
+        "url": "https://www.lewistownsentinel.com/news/local-news/2026/10/14/juniata-county-is-ready-for-election-day-ballots/",
+        "publishedAt": "2026-10-14",
+        "relevanceSummary": "Provides county election deadlines and procedures, including voter registration by Oct. 19, mail-ballot applications by Oct. 27, poll hours, and the 8 p.m. Election Day receipt deadline. Although county-specific, it reflects Pennsylvania procedures relevant to PA-10 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0k5pjjz",
+        "headline": "Erie County voter guide: What to know before Election Day",
+        "sourceName": "Erie Times-News",
+        "url": "https://www.yahoo.com/news/politics/articles/erie-county-voter-guide-know-091224148.html",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "Covers Pennsylvania’s registration, mail-ballot, polling-hours, ballot-status, and on-demand voting procedures, while also providing county polling-location information. The statewide rules apply to PA-10 voters, though the county logistics are indirect.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-07wbr10",
+        "headline": "Trump shifts position on mail-in voting: Pennsylvania rules and deadlines",
+        "sourceName": "WGAL",
+        "url": "https://www.wgal.com/article/trump-mail-in-voting-pennsylvania/74117163",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "Details Pennsylvania’s no-excuse mail voting, on-demand mail-ballot voting, key registration and application deadlines, ballot-envelope requirements, signature and date requirements, and the 8 p.m. receipt deadline. These statewide procedures apply directly in PA-10.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0ri9cm5",
+        "headline": "Your guide to the Nov. 3, 2026 election in York County",
+        "sourceName": "York Daily Record",
+        "url": "https://www.ydr.com/story/news/politics/elections/2026/10/12/york-county-election-guide-for-the-november-2026-mid-term-elections/92043397007/",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "Lists Pennsylvania’s registration and mail-ballot deadlines, polling-place lookup resources, ballot-envelope instructions, and the 8 p.m. Election Day receipt deadline. The statewide procedures apply to PA-10 voters, though polling information is York County-specific.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0ty8693",
+        "headline": "Everything You Need to Know About Mail Voting in PA",
+        "sourceName": "Saucon Source",
+        "url": "https://sauconsource.com/2026/10/12/everything-you-need-to-know-about-mail-voting-in-pa/",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "Summarizes statewide deadlines and requirements: voter registration by Oct. 19, mail-ballot applications by 5 p.m. Oct. 27, acceptable identification for applications, and receipt of completed ballots by 8 p.m. Election Day. The rules directly govern PA-10 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0fbwd2i",
+        "headline": "Make Sure You Have a Plan to Vote!",
+        "sourceName": "Pennsylvania House of Representatives",
+        "url": "https://www.pahouse.com/nelson/EmailArchive/?id=145627",
+        "publishedAt": "2026-10-09",
+        "relevanceSummary": "Reminds Pennsylvania voters that Oct. 27 is the deadline to request a mail-in or absentee ballot. This statewide deadline applies to voters in PA-10.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0mjke4i",
+        "headline": "Lehigh Valley and Pa. guide to 2026 election",
+        "sourceName": "The Morning Call",
+        "url": "https://www.mcall.com/2026/10/08/lehigh-valley-pa-november-2026-midterm-elections-guide/",
+        "publishedAt": "2026-10-08",
+        "relevanceSummary": "Explains Pennsylvania registration and mail-ballot deadlines, on-demand voting, identification needed at county election offices, polling-place lookup, and ballot-envelope and receipt requirements. Statewide rules apply to PA-10, while the county office hours are regional examples.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-022borh",
+        "headline": "Pennsylvania voting rights: what to know for Nov. 3 election",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/10/pennsylvania-general-election-day-2026-voter-rights-elections/",
+        "publishedAt": "2026-10-08",
+        "relevanceSummary": "Explains Pennsylvania’s in-person ID rules, including which first-time voters must show identification, and how voters can spoil a mail ballot at the polls or return it to their county election office by 8 p.m. on Election Day. These statewide procedures apply to PA-10 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-07-pa10-auto",
-      "startedAt": "2026-10-07T11:06:37.026Z",
-      "completedAt": "2026-10-07T11:07:21.920Z",
+      "id": "run-2026-10-14-pa10-auto",
+      "startedAt": "2026-10-14T09:26:40.799Z",
+      "completedAt": "2026-10-14T09:27:24.126Z",
       "triggerType": "scheduled",
       "sourcesChecked": 15,
-      "updatesCreated": 7,
+      "updatesCreated": 8,
       "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-07 for PA-10. Sources checked: 15. LLM verifications: 9. 7 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-10-14 for PA-10. Sources checked: 15. LLM verifications: 11. 7 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-10-14T11:07:21.920Z",
+    "NEXT_REFRESH_AT": "2026-10-21T09:27:24.126Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-14",
-  "updatedAt": "2026-10-14T09:27:24.126Z",
-  "exportedAt": "2026-10-14T09:35:04.420Z",
+  "dataAsOf": "2026-10-21",
+  "updatedAt": "2026-10-21T09:16:52.530Z",
+  "exportedAt": "2026-10-21T09:25:01.458Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -164,7 +164,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-21",
         "confidence": "high"
       },
       "src-vote-pa": {
@@ -188,7 +188,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "high",
         "notes": "Director: Chris Spackman. Phone: (717) 780-6360. 1251 South 28th Street, Harrisburg, PA 17111."
       },
@@ -227,7 +227,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -1751,20 +1751,100 @@
         "relevanceSummary": "Explains Pennsylvania’s in-person ID rules, including which first-time voters must show identification, and how voters can spoil a mail ballot at the polls or return it to their county election office by 8 p.m. on Election Day. These statewide procedures apply to PA-10 voters.",
         "tag": "voter-id",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0bsn2h1",
+        "headline": "Pennsylvania elections chief highlights voter rights two weeks ahead of Election Day",
+        "sourceName": "The Express",
+        "url": "https://www.lockhaven.com/news/local-news/2026/10/pennsylvania-elections-chief-highlights-voter-rights-two-weeks-ahead-of-election-day/",
+        "publishedAt": "2026-10-21",
+        "relevanceSummary": "The state elections chief outlined the Oct. 27 mail-ballot application deadline, the Nov. 3 receipt deadline, and options for voters who requested but did not receive a mail ballot. The article also explains provisional voting and identification requirements for first-time voters.[2]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-042hwfz",
+        "headline": "Voter Guide: 2026",
+        "sourceName": "Temple News",
+        "url": "https://temple-news.com/voter-guide-2026/",
+        "publishedAt": "2026-10-20",
+        "relevanceSummary": "The Pennsylvania voter guide explains in-person voting hours, identification documents accepted for first-time voters or voters at a new polling place, and the Oct. 27 mail-ballot deadline.[6]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0ljzz4z",
+        "headline": "2026 Mail Ballot Application Deadline Is One Week Away",
+        "sourceName": "Pennsylvania Department of State",
+        "url": "https://www.pa.gov/agencies/dos/newsroom/2026-mail-ballot-application-deadline-is-one-week-away",
+        "publishedAt": "2026-10-20",
+        "relevanceSummary": "Pennsylvania’s Secretary of the Commonwealth reminded voters that mail-ballot applications are due by Oct. 27 and completed ballots must reach county election offices by 8 p.m. on Nov. 3. Voters may return ballots to their county office, designated satellite office, or official drop box; postmarks do not extend the receipt deadline.[1]",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0gg5ejv",
+        "headline": "Pa. midterm elections: guidelines and dates to know",
+        "sourceName": "WPSU",
+        "url": "https://radio.wpsu.org/2026-10-19/pa-midterm-elections-guidelines-and-dates-to-know",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "The statewide guide covers voter registration, separate mail-ballot applications, the Oct. 27 application deadline, ballot-receipt rules, and polling-place lookup information. It notes that voters should verify their assigned polling location because locations can change.[5]",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-01kd79p",
+        "headline": "Montgomery County commissioners counting down to election",
+        "sourceName": "The Reporter",
+        "url": "https://www.thereporteronline.com/2026/10/19/montgomery-county-commissioners-counting-down-to-election/",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "Montgomery County officials highlighted the voter-registration deadline, the Oct. 27 deadline to request a mail ballot, and the requirement that ballots be returned by polls closing on Nov. 3. Montgomery County includes part of Pennsylvania’s 10th Congressional District.[4]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0vftqg6",
+        "headline": "PA election 2026: Your guide to voting on Nov. 3",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/10/pennsylvania-general-election-day-2026-voter-information-registration-elections/",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "This statewide voter guide explains acceptable identification for first-time or recently relocated voters, the Oct. 27 mail-ballot application deadline, and the requirement that counties receive completed mail ballots by 8 p.m. on Election Day.[3]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0whewso",
+        "headline": "Jefferson County Election Officials Outline Key Dates, Voting Changes Ahead of November 3",
+        "sourceName": "Explore Jefferson PA",
+        "url": "https://www.explorejeffersonpa.com/local/2026/10/16/jefferson-county-election-officials-outline-key-dates-voting-changes-ahead-of-november-3-182600/",
+        "publishedAt": "2026-10-16",
+        "relevanceSummary": "Jefferson County election officials announced registration and mail-ballot deadlines and identified a polling-place change in Timblin. The county-level notice is relevant as an example of Pennsylvania local election administration and polling-location changes.[7]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa10-0tlakpt",
+        "headline": "Nearly 900 mail ballots returned of Nov. 3 election",
+        "sourceName": "Lewistown Sentinel",
+        "url": "https://www.lewistownsentinel.com/news/local-news/2026/10/nearly-900-mail-ballots-returned-of-nov-3-election/",
+        "publishedAt": "2026-10-15",
+        "relevanceSummary": "The article describes county mail-ballot return logistics, including a courthouse drop box, extended availability on deadline days, and the rule that voters generally must return their own ballots unless a voter with a disability completes the required authorization form.[8]",
+        "tag": "ballot-access",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-14-pa10-auto",
-      "startedAt": "2026-10-14T09:26:40.799Z",
-      "completedAt": "2026-10-14T09:27:24.126Z",
+      "id": "run-2026-10-21-pa10-auto",
+      "startedAt": "2026-10-21T09:16:25.222Z",
+      "completedAt": "2026-10-21T09:16:52.530Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
+      "sourcesChecked": 16,
       "updatesCreated": 8,
       "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-14 for PA-10. Sources checked: 15. LLM verifications: 11. 7 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-10-21 for PA-10. Sources checked: 16. LLM verifications: 7. 7 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-10-21T09:27:24.126Z",
+    "NEXT_REFRESH_AT": "2026-10-28T09:16:52.530Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

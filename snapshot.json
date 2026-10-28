@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-21",
-  "updatedAt": "2026-10-21T09:16:52.530Z",
-  "exportedAt": "2026-10-21T09:25:01.458Z",
+  "dataAsOf": "2026-10-28",
+  "updatedAt": "2026-10-28T10:20:57.831Z",
+  "exportedAt": "2026-10-28T10:26:49.620Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -164,7 +164,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high"
       },
       "src-vote-pa": {
@@ -227,7 +227,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -251,7 +251,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-10-28",
         "confidence": "medium"
       }
     },
@@ -1834,17 +1834,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-21-pa10-auto",
-      "startedAt": "2026-10-21T09:16:25.222Z",
-      "completedAt": "2026-10-21T09:16:52.530Z",
+      "id": "run-2026-10-28-pa10-auto",
+      "startedAt": "2026-10-28T10:20:48.640Z",
+      "completedAt": "2026-10-28T10:20:57.831Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 16,
-      "updatesCreated": 8,
-      "conflictsCreated": 1,
+      "sourcesChecked": 20,
+      "updatesCreated": 0,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-21 for PA-10. Sources checked: 16. LLM verifications: 7. 7 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-10-28 for PA-10. Sources checked: 20. LLM verifications: 12. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-28T09:16:52.530Z",
+    "NEXT_REFRESH_AT": "2026-11-04T10:20:57.831Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",

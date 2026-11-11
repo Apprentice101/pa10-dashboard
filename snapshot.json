@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-11-04",
-  "updatedAt": "2026-11-04T11:47:31.738Z",
-  "exportedAt": "2026-11-04T11:52:46.395Z",
+  "dataAsOf": "2026-11-11",
+  "updatedAt": "2026-11-11T11:38:49.170Z",
+  "exportedAt": "2026-11-11T11:46:08.177Z",
   "districtCode": "PA-10",
   "data": {
     "DISTRICT": {
@@ -68,7 +68,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-11-04",
+        "lastVerified": "2026-11-11",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-11-04",
+        "lastVerified": "2026-11-11",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-11-04",
+        "lastVerified": "2026-11-11",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -164,7 +164,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-11-04",
+        "lastVerified": "2026-11-11",
         "confidence": "high"
       },
       "src-vote-pa": {
@@ -201,7 +201,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-11-11",
         "confidence": "high",
         "notes": "Director: Bethany Salzarulo. Phone: (717) 240-6385. 1601 Ritner Highway, Suite 201, Carlisle, PA 17013."
       },
@@ -227,7 +227,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-11-04",
+        "lastVerified": "2026-11-11",
         "confidence": "medium"
       },
       "src-pa-election-returns": {
@@ -251,7 +251,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-11-04",
+        "lastVerified": "2026-11-11",
         "confidence": "medium"
       }
     },
@@ -1834,17 +1834,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-11-04-pa10-auto",
-      "startedAt": "2026-11-04T11:47:26.544Z",
-      "completedAt": "2026-11-04T11:47:31.738Z",
+      "id": "run-2026-11-11-pa10-auto",
+      "startedAt": "2026-11-11T11:38:43.373Z",
+      "completedAt": "2026-11-11T11:38:49.170Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 20,
+      "sourcesChecked": 19,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-11-04 for PA-10. Sources checked: 20. LLM verifications: 10. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-11-11 for PA-10. Sources checked: 19. LLM verifications: 8. 7 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-11-11T11:47:31.738Z",
+    "NEXT_REFRESH_AT": "2026-11-18T11:38:49.170Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa10-2026-w25",
       "periodStart": "2026-06-03",
